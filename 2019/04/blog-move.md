@@ -1,0 +1,31 @@
+---
+date : 2019-04-08 07:27:08
+---
+# Blog Move
+
+For awhile now I've been thinking of moving my blog hosting to a different platform. At time of writing, it's running on WordPress in Azure on a small app service plan. It's been fine, but there are things to improve.
+
+## Architecture overkill
+
+Having a WordPress app running off a MySQL database is just overkill for my blog site. That combination has worked fine for me, and continues to work fine for millions. WordPress offers some conveniences like tags, themes, and tons of plugins, but nothing I couldn't replicate with a static site generator. And I have WordPress comments disabled because they have been 99.99% spam. I could always host Discus comments on the static generated site if I really wanted to.
+
+## Selecting a New Platform
+
+My requirements for the new blogging platform:
+
+- Custom domain name support
+- HTTPS support
+- Pretty URLs
+- Simple commit/push static site generation/publish
+- RSS feed generation
+- Modern lightweight HTML and CSS
+- Markdown support
+
+After looking at different options I have settled on [GitHub Pages](https://pages.github.com/). The following is a checklist I'm using to manage the process.
+
+- Create site repo
+- Create folder structure to match the year/mm structure of blog history
+- Move static assets to assets folder
+- Move blog posts over, checking for broken content per page
+- Set up RSS feed
+- Move domain over when ready to go live with the move
