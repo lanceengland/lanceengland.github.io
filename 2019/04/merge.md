@@ -1,6 +1,3 @@
-# Now as Markdown
-
-
 <p>The T-SQL relational operators PIVOT and UNPIVOT are super useful, but I use them *just* infrequently enough where I can never remember the exact syntax from memory. I decided to create this post for a quick reference for myself, and maybe someone will also find it handy.</p>
 <p>First off, what do PIVOT and UNPIVOT do? PIVOT will turn row values into columns, and UNPIVOT can turn columns into row values. It's easier to visualize by following the examples below. I wanted the examples to be a quick copy/paste/run into SQL Server Management Studio, so the source table is a hard-coded inline table from a <a href="https://docs.microsoft.com/en-us/sql/t-sql/queries/table-value-constructor-transact-sql">VALUES</a> table constructor.</p>
 <h2>Initial Table</h2>
