@@ -1,5 +1,5 @@
-# test
+# Placeholder
 
-Index page test
+Nothing to see here yet
 
-A [link to another page](/2019/04/merge)
+A [post](/2019/04/blog-move) on moving my blog.
