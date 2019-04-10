@@ -2,12 +2,16 @@
 
 A [post](/2019/04/blog-move) on moving my blog.
 
-## Posts (new code v2)
+## List with paragragh tag
+
+- line 1
+- line 2
+- line 3
+
+## Posts
 
 {% for post in site.posts %}
-
 - [{{ post.title }}]({{ post.id }})
-
 {% endfor %}
 
 Image
