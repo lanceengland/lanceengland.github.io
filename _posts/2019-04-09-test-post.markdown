@@ -1,0 +1,7 @@
+---
+date : 2019-04-09 07:27:08
+permalink: /:year/:month/:title:output_ext
+---
+# Test post from collection
+
+Trying out auto post generation
