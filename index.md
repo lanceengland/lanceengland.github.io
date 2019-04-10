@@ -3,7 +3,7 @@
 
 A [post](/2019/04/blog-move) on moving my blog.
 
-## Posts
+## Posts (new code)
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.id }})
