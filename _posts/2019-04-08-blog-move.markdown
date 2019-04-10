@@ -20,6 +20,7 @@ My requirements for the new blogging platform:
 - RSS feed generation
 - Modern lightweight HTML and CSS
 - Markdown support
+- Site_map.xml and other SEO optimizations
 
 After looking at different options I have settled on [GitHub Pages](https://pages.github.com/). The following is a checklist I'm using to manage the process.
 
