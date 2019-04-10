@@ -16,3 +16,9 @@ List of images:
 {% for myimage in image_files %}
   {{ myimage.path }}
 {% endfor %}
+
+Checklist test
+
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
