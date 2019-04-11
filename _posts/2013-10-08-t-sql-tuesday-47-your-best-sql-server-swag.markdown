@@ -1,7 +1,7 @@
 ---
 date : 2013-10-08 05:40:08
 ---
-# T-SQL Tuesday #47: Your Best SQL Server SWAG
+# T-SQL Tuesday #47: Your Best SQL Server Swag
 
 [![T-SQL Tuesday](/assets/img/TSQL2sDay150x150.jpg)](http://www.kendalvandyke.com/2013/10/t-sql-tuesday-47-your-best-sql-server.html)
 

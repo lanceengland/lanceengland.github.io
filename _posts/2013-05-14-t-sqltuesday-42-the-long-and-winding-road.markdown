@@ -1,7 +1,7 @@
 ---
 date : 2013-05-14 11:18:14
 ---
-# T-SQLTuesday #42: The Long and Winding Road
+# T-SQL Tuesday #42: The Long and Winding Road
 
 [![T-SQL Tuesday](/assets/img/TSQL2sDay150x150.jpg)](https://wendyverse.blogspot.com/2013/05/its-time-for-t-sqltuesday-42-long-and.html)
 
