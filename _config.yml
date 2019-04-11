@@ -9,3 +9,4 @@ defaults:
       image: true
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
