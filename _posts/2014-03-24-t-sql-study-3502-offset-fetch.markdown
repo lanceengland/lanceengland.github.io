@@ -38,14 +38,14 @@ ORDER BY ORDERDATE
 OFFSET (@PageNumber * @ResultsPerPage) ROWS FETCH NEXT @ResultsPerPage ROWS ONLY;
 
 <!-- Initialize EnlighterJS -->
-<meta name="EnlighterJS" content="Advanced javascript based syntax highlighting" data-indent="4" data-selector-block="pre" data-selector-inline="code" data-language="javascript" />
+<meta name="EnlighterJS" content="Advanced javascript based syntax highlighting" data-indent="4" data-selector-block="pre" data-selector-inline="code" data-rawcodebutton="true" data-language="sql" />
 
 <pre data-enlighter-language="js">
-$('#loading-example-btn').click(function () {
-  var btn = $(this)
-  btn.button('loading')
-  $.ajax(...).always(function () {
-  btn.button('reset')
-  });
-});
+DECLARE @ResultsPerPage INT = 10;
+DECLARE @PageNumber INT = 0;
+
+SELECT SalesOrderNumber, OrderQuantity, ProductKey  
+FROM dbo.FactInternetSales
+ORDER BY ORDERDATE
+OFFSET (@PageNumber * @ResultsPerPage) ROWS FETCH NEXT @ResultsPerPage ROWS ONLY;
 </pre>
