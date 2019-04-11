@@ -2,8 +2,6 @@
 
 This will probably be set up to display the latest blog post content with the permalink as the title.
 
-{{site.url}}
-
 ## List with paragragh tag
 
 - line 1
