@@ -79,6 +79,6 @@ While I stay focued on SQL Server and BI-related technologies, I want to at leas
 
 - I will best my blog post output from last year. One down, (at least) 12 to go!
 
-- I will present at one user group this year. As a matter of fact, I'm already scheduled to present "MDX: Fundamentals"</span> at the February 2014 meeting of the [Atlanta Microsoft Business Intelligence](http://atlantabi.sqlpass.org/) user group.
+- I will present at one user group this year. As a matter of fact, I'm already scheduled to present "MDX: Fundamentals" at the February 2014 meeting of the [Atlanta Microsoft Business Intelligence](http://atlantabi.sqlpass.org/) user group.
 
 Time to get moving!
