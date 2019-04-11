@@ -28,6 +28,7 @@ After looking at different options I have settled on [GitHub Pages](https://page
 - [ ] Create folder structure to match the year/mm structure of blog history
 - [ ] Move static assets to assets folder
 - [ ] Move blog posts over, fixing broken content per page
+- [ ] Move over non-blog post pages (About, presentations, etc.)
 - [ ] Set up RSS feed
 - [ ] Set up sitemap.xml
 - [ ] Pick theme
