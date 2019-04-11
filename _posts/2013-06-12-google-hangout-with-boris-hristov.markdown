@@ -9,7 +9,7 @@ The topic for the Hangout was "How to get started in Business Intelligence". The
 
 The sound quality while I'm talking isn't great, so I think I will invest in a microphone for future hangouts. Thanks again to Boris for inviting me to participate. The [#sqlfamily](http://twitter.com/search?q=%23sqlfamily) knows no borders.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R-SxW78yDRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[View the video on YouTube](https://youtu.be/R-SxW78yDRs)
 
 ## Show Notes
 
