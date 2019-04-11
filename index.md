@@ -1,6 +1,6 @@
 # Placeholder
 
-A [post](/2019/04/blog-move) on moving my blog.
+This will probably be set up to display the latest blog post content with the permalink as the title
 
 ## List with paragragh tag
 
@@ -14,14 +14,6 @@ A [post](/2019/04/blog-move) on moving my blog.
 - [{{ post.title }}]({{ post.id }})
 {% endfor %}
 
-Image
-
-![T-SQL Tuesday](/assets/img/TSQL2sDay150x150.jpg)
-
-Image as link
-
-[![T-SQL Tuesday](/assets/img/TSQL2sDay150x150.jpg)](http://www.bobpusateri.com/archive/2013/04/invitation-to-t-sql-tuesday-41-presenting-and-loving-it/)
-
 List of images:
 
 {% assign image_files = site.static_files | where: "image", true %}
@@ -29,8 +21,3 @@ List of images:
   {{ myimage.path }}
 {% endfor %}
 
-Checklist test
-
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item

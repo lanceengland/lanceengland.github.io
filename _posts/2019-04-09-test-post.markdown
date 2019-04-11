@@ -1,3 +1,0 @@
-# Test post from collection
-
-Trying out auto post generation
