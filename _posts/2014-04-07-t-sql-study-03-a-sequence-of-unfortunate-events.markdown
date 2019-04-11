@@ -168,5 +168,3 @@ select * from @t;
 ## Conclusions
 
 After playing around with them, I can appreciate the flexibility sequences offer. And it's never a bad thing to learn a cross-platform SQL feature.
-
-Continuing the 70-461 series, a look at another new feature in SQL Server 2012: Sequence objects.
