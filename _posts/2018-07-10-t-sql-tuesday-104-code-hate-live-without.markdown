@@ -21,7 +21,7 @@ Which produces the following output:
 
 <pre data-enlighter-language="sql">
 WITH SRC AS
-( 
+(
     /* your source query here */
 )
 MERGE INTO Tbl WITH (HOLDLOCK) AS TGT

@@ -1,7 +1,7 @@
 theme: jekyll-theme-slate
 permalink: /:year/:month/:title:output_ext
 title: Lance England
-description: Data + Analysis + Integration + Automation
+description: Data | Analysis | Integration | Automation
 defaults:
   - scope:
       path: "assets/img"
