@@ -1,6 +1,6 @@
 ---
 date : 2014-03-24 04:24:24
-title: T-SQL Study #02: OFFSET FETCH
+title: T-SQL Study OFFSET FETCH
 ---
 # T-SQL Study #02: OFFSET FETCH
 
