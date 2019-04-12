@@ -2,8 +2,6 @@
 date : 2014-03-24 04:24:24
 title: T-SQL Study OFFSET FETCH
 ---
-# T-SQL Study #02: OFFSET FETCH
-
 Continuing the [T-SQL study series](/blog/2014/3/24/t-sql-study-1-create-view-and-procedure-options), the award for "Most Awkward Implementation" goes to... OFFSET FETCH!
 
 To be fair, this is not on Microsoft. This is an ANSI implementation, and for that Microsoft should be commended. It's too bad the standard is a little wordy and klunky. Enough whinging, here's the scoop.
