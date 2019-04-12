@@ -1,7 +1,8 @@
 ---
 date : 2014-03-24 04:24:24
-title: T-SQL Study OFFSET FETCH
 ---
+# T-SQL Study: OFFSET FETCH
+
 Continuing the [T-SQL study series](/blog/2014/3/24/t-sql-study-1-create-view-and-procedure-options), the award for "Most Awkward Implementation" goes to... OFFSET FETCH!
 
 To be fair, this is not on Microsoft. This is an ANSI implementation, and for that Microsoft should be commended. It's too bad the standard is a little wordy and klunky. Enough whinging, here's the scoop.
@@ -24,11 +25,11 @@ Note:
 
 - FIRST and NEXT are also synonyms (same reason)
 
-- FETCH cannot exist without OFFSET (aww, like a tragic love story)
+- FETCH cannot exist without OFFSET
 
-- The whole clause cannot exists with an ORDER BY (now it's a polygamous love story?)
+- The whole clause cannot exists with an ORDER BY
 
-- The OFFSET and FIRST/NEXT value can be parameterized. That's pretty cool. See code sample below.
+- The OFFSET and FIRST/NEXT value can be parameterized. This can be used for pagination. See code sample below.
 
 <pre data-enlighter-language="sql">
 DECLARE @ResultsPerPage INT = 10;

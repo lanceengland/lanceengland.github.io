@@ -1,7 +1,7 @@
 ---
 date : 2014-04-07 07:02:07
 ---
-# T-SQL Study #03: A SEQUENCE of Unfortunate Events
+# T-SQL Study: A SEQUENCE of Unfortunate Events
 
 Actually, sequences aren’t unfortunate at all :) And thusly, is today's topic in my ~~sprint~~ ~~marathon~~ ~~deathmarch~~ progress towards the 70-461 exam 'Querying with T-SQL yada yada yada'.
 

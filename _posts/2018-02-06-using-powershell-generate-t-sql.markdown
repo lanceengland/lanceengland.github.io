@@ -11,11 +11,44 @@ The result of my efforts is a function called Get-SqlMergeStatement. The repo is
 
 An example of how to use the function:
 
-<script src="https://gist.github.com/lanceengland/493795b4ee49bbd30988f21d557f639e.js"></script>
+<pre data-enlighter-language="shell">
+Get-SqlMergeStatement -TargetTableName Tbl -JoinColumns a -MergeColumns a,b,c
+</pre>
 
 Which produces the following output:
 
-<script src="https://gist.github.com/lanceengland/f6c94d25406c928a469a8219e3730bcd.js"></script>
+<pre data-enlighter-language="sql">
+WITH SRC AS
+( 
+    /* your source query here */
+)
+MERGE INTO Tbl WITH (HOLDLOCK) AS TGT
+    USING SRC ON (SRC.a = TGT.a)
+
+WHEN NOT MATCHED BY TARGET THEN
+    INSERT (
+        a,
+        b,
+        c
+    )
+    VALUES (
+        SRC.a,
+        SRC.b,
+        SRC.c
+    )
+
+WHEN MATCHED AND EXISTS (
+    SELECT SRC.b, SRC.c
+    EXCEPT
+    SELECT TGT.b, TGT.c
+    )
+THEN
+    UPDATE SET
+    b = SRC.b,
+    c = SRC.c
+
+;
+</pre>
 
 The function is in a plain PS1 file, but if I add another function I'll make it a module. As an aside, I continue to be impressed with the power and expressiveness of PowerShell. The entire function is a template string, with embedded snippets that iterate over the same string array and apply different transformations through the pipeline.
 

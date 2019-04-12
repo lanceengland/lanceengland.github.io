@@ -1,7 +1,7 @@
 ---
 date : 2014-03-24 01:32:24
 ---
-# T-SQL Study #01: Create View and Procedure Options
+# T-SQL Study: Create View and Procedure Options
 
 It's time to work on some goals for 2014. Obtaining a SQL Server certification is something I had planned to pursue last year, but am determined to tackle it this year. The first test is [70-461: Querying Microsoft SQL Server](http://www.microsoft.com/learning/en-us/exam-70-461.aspx). For each test, I will review the high level objectives, jot down the areas I am weak in, and then blog about it. When I'm finished I will have a collection of study notes and will also have increased my blog post count for this year. That, my friends, is called efficiency ;)
 
