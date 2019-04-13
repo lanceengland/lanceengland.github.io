@@ -2,12 +2,12 @@
 
 This page will list all entries and maybe categories.
 
-{%- for post in site.posts -%}
+{% for post in site.posts %}
 - [{{ post.title }}]({{ post.id }})
-{%- endfor -%}
+{% endfor %}
 
 Tag Test
 
-{%- for post in site.posts | :where "tags", "test"  -%}
+{% for post in site.posts | :where "tags", "test"  %}
 - [{{ post.title }}]({{ post.id }})
-{%- endfor -%}
+{% endfor %}
