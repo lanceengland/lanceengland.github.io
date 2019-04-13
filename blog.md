@@ -8,6 +8,8 @@ This page will list all entries and maybe categories.
 
 Tag Test2
 
-{% for post in site.posts | :where "tags", "test"  %}
+{% for post in site.posts  %}
+{% if post.tags contains "test" %}
 - [{{ post.title }}]({{ post.id }})
+{% endif %}
 {% endfor %}
