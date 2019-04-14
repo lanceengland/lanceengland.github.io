@@ -21,9 +21,12 @@ I will get this working!
 {%- endfor -%}
 </ul>
 
-
 {%- assign test_posts = site.posts | where: "tags","test" -%}
-array count: {{ test_posts.count }}
+{% if test_posts %}
+test collection found
+{% else %}
+test collection NOT found
+{% endif %}
 
 ## Test
 
