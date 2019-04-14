@@ -16,9 +16,10 @@
 {%- endfor -%}
 </ul>
 
-## Testing select array function
+## Testing filtered array
 
 {%- assign test_posts = site.posts | where: "tags","test" -%}
+
 <ul class="posts">
 {%- for post in test_posts -%}
 <li><a href="{{ post.id }}">{{ post.title }}</a></li>
