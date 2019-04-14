@@ -1,12 +1,15 @@
 # Blog Index
 
-This page will list all entries and maybe categories.
-
+## Archive
+<ul>
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.id }})
+{% unless post.tags contains "test" %}
+<li><a href="{{ post.id }}">{{ post.title }}</a></li>
+{% endunless %}
 {% endfor %}
+</ul>
 
-Tag Test2
+## Test
 
 {% for post in site.posts  %}
 {% if post.tags contains "test" %}
