@@ -3,13 +3,27 @@ date : 2019-04-14 07:27:08
 ---
 # Blog Index
 
-I will get this working!
+{%- assign data_posts = site.posts | where: "tags","data" -%}
+{%- if data_posts -%}
 
 ## Data
 
+<ul class="posts">
+{%- for post in site.posts -%}
+{%- if post.tags contains "data" -%}
+<li><a href="{{ post.id }}">{{ post.title }}</a></li>
+{%- endif -%}
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
 ## Analysis
 
+todo
+
 ## Integration
+
+todo
 
 ## Other
 
@@ -21,14 +35,11 @@ I will get this working!
 {%- endfor -%}
 </ul>
 
+{% comment %} clunky collection filtering {% endcomment %}
 {%- assign test_posts = site.posts | where: "tags","test" -%}
-{% if test_posts %}
-test collection found
-{% else %}
-test collection NOT found
-{% endif %}
+{%- if test_posts -%}
 
-## Test
+## Test (about to delete if this works)
 
 <ul class="posts">
 {%- for post in site.posts -%}
@@ -37,3 +48,4 @@ test collection NOT found
 {%- endif -%}
 {%- endfor -%}
 </ul>
+{%- endif -%}

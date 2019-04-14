@@ -1,5 +1,6 @@
 ---
 date : 2017-12-27 09:12:27
+tags: data
 ---
 # MERGE Quick Reference (T-SQL)
 
