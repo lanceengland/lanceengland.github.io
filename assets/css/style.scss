@@ -4,4 +4,5 @@
 @import "{{ site.theme }}";
 ul.posts {
     list-style: none;
+    text-indent: -1em;
 }
