@@ -10,7 +10,7 @@ coming soon
 
 coming soon
 
-## Integaration
+## Integration
 
 coming soon
 
