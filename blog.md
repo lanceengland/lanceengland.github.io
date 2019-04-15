@@ -7,9 +7,7 @@ Below is an index of all blog posts arranged by topic.
 
 {%- assign data_posts = site.posts | where: "tags","data" -%}
 {%- if data_posts -%}
-
-## Data
-
+<h1>Data</h1>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "data" -%}
@@ -21,9 +19,7 @@ Below is an index of all blog posts arranged by topic.
 
 {%- assign analysis_posts = site.posts | where: "tags","analysis" -%}
 {%- if analysis_posts -%}
-
-## Data
-
+<h1>Analysis</h1>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "analysis" -%}
@@ -35,9 +31,7 @@ Below is an index of all blog posts arranged by topic.
 
 {%- assign integration_posts = site.posts | where: "tags","integration" -%}
 {%- if integration_posts -%}
-
-## Integration
-
+<h1>Integration</h1>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "integration" -%}
@@ -47,15 +41,12 @@ Below is an index of all blog posts arranged by topic.
 </ul>
 {%- endif -%}
 
-{% comment %} clunky collection filtering {% endcomment %}
-{%- assign test_posts = site.posts | where: "tags","test" -%}
-{%- if test_posts -%}
-
-## Test (about to delete if this works)
-
+{%- assign automation_posts = site.posts | where: "tags","automation" -%}
+{%- if automation_posts -%}
+<h1>automation</h1>
 <ul class="posts">
 {%- for post in site.posts -%}
-{%- if post.tags contains "test" -%}
+{%- if post.tags contains "automation" -%}
 <li><a href="{{ post.id }}">{{ post.title }}</a></li>
 {%- endif -%}
 {%- endfor -%}
