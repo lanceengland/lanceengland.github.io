@@ -1,5 +1,6 @@
 ---
 date : 2014-05-23 04:15:23
+tags: analysis automation
 ---
 # Processing SSAS with SSIS script tasks
 

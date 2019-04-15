@@ -1,5 +1,6 @@
 ---
 date : 2013-10-08 05:40:08
+tags: data
 ---
 # T-SQL Tuesday #47: Your Best SQL Server Swag
 

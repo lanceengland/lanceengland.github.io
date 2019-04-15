@@ -1,5 +1,6 @@
 ---
 date : 2013-05-08 01:41:08
+tags: data
 ---
 # SQL Saturday #220
 

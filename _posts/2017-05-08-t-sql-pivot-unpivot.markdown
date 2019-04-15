@@ -1,5 +1,6 @@
 ---
 date : 2017-05-08 11:29:08
+tags: data
 ---
 # PIVOT and UNPIVOT quick reference
 

@@ -1,5 +1,6 @@
 ---
 date : 2013-05-14 11:18:14
+tags: data
 ---
 # T-SQL Tuesday #42: The Long and Winding Road
 

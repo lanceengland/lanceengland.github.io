@@ -1,5 +1,6 @@
 ---
 date : 2014-03-24 04:24:24
+tags: data
 ---
 # T-SQL Study: OFFSET FETCH
 

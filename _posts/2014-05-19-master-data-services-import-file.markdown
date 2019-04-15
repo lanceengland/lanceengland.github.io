@@ -1,5 +1,6 @@
 ---
 date : 2014-05-19 02:44:19
+tags: data integration
 ---
 # Master Data Services Import File
 

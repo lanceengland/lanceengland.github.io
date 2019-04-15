@@ -1,5 +1,6 @@
 ---
 date : 2014-07-25 03:32:25
+tags: data
 ---
 # Safe UPDATE and DELETE
 

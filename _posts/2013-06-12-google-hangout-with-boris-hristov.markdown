@@ -1,5 +1,6 @@
 ---
 date : 2013-06-12 01:08:12
+tags: analysis
 ---
 # Google Hangout with Boris Hristov
 

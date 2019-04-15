@@ -1,5 +1,6 @@
 ---
 date : 2014-04-07 07:02:07
+tags: data
 ---
 # T-SQL Study: A SEQUENCE of Unfortunate Events
 

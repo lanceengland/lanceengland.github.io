@@ -1,5 +1,6 @@
 ---
 date : 2018-02-06 04:13:06
+tags: data automation
 ---
 # Using PowerShell to generate T-SQL
 

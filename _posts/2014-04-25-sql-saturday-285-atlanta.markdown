@@ -1,5 +1,6 @@
 ---
 date : 2014-04-25 05:26:25
+tags: analysis
 ---
 # SQL Saturday #285: Atlanta
 
