@@ -3,7 +3,7 @@ date : 2019-04-14 07:27:08
 ---
 # Blog
 
-Below is an index of all blog posts arranged by topic.
+Below is an index of all blog posts arranged by topic. This was much harder than it should have been.
 
 <!--- Data --->
 {%- assign has_data_posts = false -%}
@@ -35,7 +35,7 @@ Below is an index of all blog posts arranged by topic.
 {%- endfor -%}
 
 {% if has_analysis_posts %}
-{% raw %}<h2>analysis</h2>{% endraw %}
+{% raw %}<h2>Analysis</h2>{% endraw %}
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "analysis" -%}
@@ -75,12 +75,32 @@ Below is an index of all blog posts arranged by topic.
 {%- endfor -%}
 
 {% if has_automation_posts %}
-{% raw %}<h2>automation</h2>{% endraw %}
+{% raw %}<h2>Automation</h2>{% endraw %}
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "automation" -%}
 <li><a href="{{ post.id }}">{{ post.title }}</a></li>
 {%- endif -%}
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
+<!--- Other --->
+{%- assign has_other_posts = false -%}
+{%- for post in site.posts -%}
+    {%- unless post.tags contains "data" or post.tags contains "analysis" or post.tags contains "integration" or post.tags contains "automation" -%}
+        {%- assign has_other_posts = true -%}
+        {% break %}
+    {%- endunless -%}
+{%- endfor -%}
+
+{% if has_other_posts %}
+{% raw %}<h2>Other</h2>{% endraw %}
+<ul class="posts">
+{%- for post in site.posts -%}
+{%- unless post.tags contains "data" or post.tags contains "analysis" or post.tags contains "integration" or post.tags contains "automation" -%}
+<li><a href="{{ post.id }}">{{ post.title }}</a></li>
+{%- endunless -%}
 {%- endfor -%}
 </ul>
 {%- endif -%}
