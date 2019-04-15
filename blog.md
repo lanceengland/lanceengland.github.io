@@ -3,7 +3,7 @@ date : 2019-04-14 07:27:08
 ---
 # Blog
 
-Below is an index of all blog posts arranged by topic. This was much harder than it should have been.
+All blog posts by category.
 
 <!--- Data --->
 {%- assign has_data_posts = false -%}
