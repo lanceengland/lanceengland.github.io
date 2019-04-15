@@ -5,8 +5,15 @@ date : 2019-04-14 07:27:08
 
 Below is an index of all blog posts arranged by topic.
 
-{%- assign data_posts = site.posts | where: "tags","data" -%}
-{%- if data_posts -%}
+{%- assign has_data_posts = false -%}
+{%- for post in site.posts -%}
+    {%- if post.tags contains "data" -%}
+        {%- assign has_data_posts = true -%}
+        {% break %}
+    {%- endif -%}
+{%- endfor -%}
+
+{%- if has_data_posts -%}
 <h1>Data</h1>
 <ul class="posts">
 {%- for post in site.posts -%}
