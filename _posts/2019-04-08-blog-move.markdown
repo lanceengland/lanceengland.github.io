@@ -25,14 +25,15 @@ My requirements for the new blogging platform:
 
 After looking at different options I have settled on [GitHub Pages](https://pages.github.com/). The following is a checklist I'm using to manage the process.
 
-- [ ] Create site repo
-- [ ] Create folder structure to match the year/mm structure of blog history
-- [ ] Move static assets to assets folder
-- [ ] Move blog posts over, fixing broken content per page
+- [X] Create site repo
+- [ ] ~~Create folder structure to match the year/mm structure of blog history~~
+- [X] Move static assets to assets folder
+- [X] Move blog posts over, fixing broken content per page
 - [ ] Move over non-blog post pages (About, presentations, etc.)
-- [ ] Syntax highlighting for code samples
-- [ ] Set up RSS feed
-- [ ] Set up sitemap.xml
-- [ ] Pick theme
-- [ ] Add social links (GitHub, LinkedIn, Twitter, RSS)
+- [X] Syntax highlighting for code samples
+- [X] Set up RSS feed
+- [X] Set up sitemap.xml
+- [X] Pick theme
+- [X] Add social links (GitHub, LinkedIn, Twitter, RSS)
+- [ ] Add Google Analytics Id
 - [ ] Move domain over when ready to go live
