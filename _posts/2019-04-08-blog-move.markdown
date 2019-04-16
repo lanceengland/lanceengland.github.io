@@ -36,4 +36,4 @@ After looking at different options I have settled on [GitHub Pages](https://page
 - [X] Pick theme
 - [X] Add social links (GitHub, LinkedIn, Twitter, RSS)
 - [ ] Add Google Analytics Id
-- [ ] Move domain over when ready to go live
+- [ ] Point DNS to new host
