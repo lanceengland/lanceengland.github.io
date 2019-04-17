@@ -9,7 +9,7 @@ Lance England is a information technology specialist focused on data, analysis, 
 Slides and demos from past presentations.
 
 **Fundamentals of MDX**  
-SQL Saturday #328 – Birmingham, AL, 2014 August 08  
+SQL Saturday #328 Birmingham AL, 2014 August 08  
 [Slides/Demos](/assets/presentations/fundamentals_of_mdx_sqlsat328.zip)
 
 **Fundamentals of MDX**  
@@ -17,7 +17,7 @@ Atlanta MDF, 2014 July 14
 [Slides/Demos](/assets/presentations/fundamentals_of_mdx_atlantamdf.zip)
 
 **Fundamentals of MDX**  
-SQL Saturday #285, 2014 May 04  
+SQL Saturday #285 Atlanta GA, 2014 May 04  
 [Slides/Demos](/assets/presentations/fundamentals_of_mdx_sqlsat285.zip)
 
 **MDX: Fundamentals**  
