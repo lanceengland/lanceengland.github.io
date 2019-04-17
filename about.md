@@ -17,5 +17,5 @@ Slides and demos from past presentations.
 | Data Management and Indexing Options for SQL Server Data Warehouses | Atlanta MDF | 2013 August 12 | [Slides/Demos](/assets/presentations/data_mgmt_atlantamdf.zip) |
 
 
-line 1\
+line 1  
 line 2
