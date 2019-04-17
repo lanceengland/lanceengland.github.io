@@ -15,3 +15,7 @@ Slides and demos from past presentations.
 | Fundamentals of MDX | SQL Saturday #285 | 2014 May 04 | [Slides/Demos](/assets/presentations/fundamentals_of_mdx_sqlsat285.zip) |
 | MDX: Fundamentals | Atlanta Microsoft Business Intelligence User Group | 2014 February 24 | [Slides/Demos](/assets/presentations/mdx_fundamentals_atlantabi.zip) |
 | Data Management and Indexing Options for SQL Server Data Warehouses | Atlanta MDF | 2013 August 12 | [Slides/Demos](/assets/presentations/data_mgmt_atlantamdf.zip) |
+
+
+line 1\
+line 2
