@@ -10,3 +10,4 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+google_analytics: UA-38627061-2

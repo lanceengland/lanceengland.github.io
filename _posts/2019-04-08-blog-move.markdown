@@ -36,4 +36,5 @@ After looking at different options I have settled on [GitHub Pages](https://page
 - [X] Pick theme
 - [X] Add social links (GitHub, LinkedIn, Twitter, RSS)
 - [ ] Add Google Analytics Id
-- [ ] Point DNS to new host
+- [X] Point DNS to new host
+- [ ] Turn off/delete old site
