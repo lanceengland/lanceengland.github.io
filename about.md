@@ -27,3 +27,5 @@ Atlanta Microsoft Business Intelligence User Group - 2014 February 24
 **Data Management and Indexing Options for SQL Server Data Warehouses**  
 Atlanta MDF - 2013 August 12  
 [Slides/Demos](/assets/presentations/data_mgmt_atlantamdf.zip)
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />All slides and demos are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
