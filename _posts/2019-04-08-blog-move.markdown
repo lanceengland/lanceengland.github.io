@@ -1,6 +1,5 @@
 ---
 date : 2019-04-08 07:27:08
-tags: test
 ---
 # Blog Move
 
@@ -35,6 +34,6 @@ After looking at different options I have settled on [GitHub Pages](https://page
 - [X] Set up sitemap.xml
 - [X] Pick theme
 - [X] Add social links (GitHub, LinkedIn, Twitter, RSS)
-- [ ] Add Google Analytics Id
+- [X] Add Google Analytics Id
 - [X] Point DNS to new host
-- [ ] Turn off/delete old site
+- [X] Turn off/delete old site
