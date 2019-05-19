@@ -1,6 +1,6 @@
 ---
 date : 2019-05-19 12:00:00
-tags: data
+title : SQL Saturday 845 Recap
 ---
 # SQL Saturday 845 Recap
 
