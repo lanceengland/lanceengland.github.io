@@ -1,7 +1,7 @@
 ---
 date: 2013-03-05
 tags: analysis
-title: Recap of DAX vs MDX Smackdown
+title: "Recap of DAX vs MDX Smackdown"
 ---
 # Recap of DAX vs MDX Smackdown
 
