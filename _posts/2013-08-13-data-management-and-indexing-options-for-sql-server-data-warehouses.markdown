@@ -1,6 +1,7 @@
 ---
-date : 2013-08-13 05:40:13
+date : 2013-08-13 12:00:00
 tags: data analysis
+title : Data Management and Indexing Options for SQL Server Data Warehouses
 ---
 # Data Management and Indexing Options for SQL Server Data Warehouses
 

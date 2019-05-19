@@ -1,6 +1,7 @@
 ---
-date : 2013-07-09 11:47:09
+date : 2013-07-09 12:00:00
 tags: data
+title : T-SQL Tuesday &#35;44&#58; Second Chances
 ---
 # T-SQL Tuesday #44: Second Chances
 

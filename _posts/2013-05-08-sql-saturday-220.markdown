@@ -1,6 +1,7 @@
 ---
-date : 2013-05-08 01:41:08
+date : 2013-05-08 12:00:00
 tags: data
+title : SQL Saturday &#35;220
 ---
 # SQL Saturday #220
 
