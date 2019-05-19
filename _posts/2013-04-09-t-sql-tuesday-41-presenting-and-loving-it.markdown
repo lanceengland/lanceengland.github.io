@@ -1,6 +1,7 @@
 ---
-date : 2013-04-09 12:53:09
+date : 2013-04-09 12:00:00
 tags: data
+title : T-SQL Tuesday &#35;41 - Presenting and Loving it
 ---
 # T-SQL Tuesday #41 - Presenting and Loving it
 

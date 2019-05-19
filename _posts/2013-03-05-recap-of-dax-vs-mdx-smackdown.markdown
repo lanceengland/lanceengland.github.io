@@ -1,8 +1,9 @@
 ---
-date : 2013-03-05 10:39:05
+date : 2013-03-05 12:00:00
 tags: analysis
+title : Recap of DAX vs MDX Smackdown
 ---
-# Recap of DAX vs. MDX Smackdown
+# Recap of DAX vs MDX Smackdown
 
 At the Feb 2013 meeting of [Atlanta Microsoft Business Intelligence User Group](http://atlantabi.sqlpass.org), the presentation was titled "DAX vs. MDX Smackdown". It was presented by **Neal Waterstreet** ([@NealWaterstreet](https://twitter.com/NealWaterstreet) | [blog](http://www.nealwaterstreet.com/)) and **Damu Venkatesan** ([@vdamu](https://twitter.com/vdamu)), with some assistance by **Teo Lachev** ( [@tlachev](http://twitter.com/tlachev) | [blog](http://prologika.com/CS/blogs/blog/default.aspx)). The presentation compared some of the features, overlaps, and differences between the two languages. During the course of the presentation, there was additional discussion comparing the BISM Tabular model to the BISM Multidimensional model. Understanding the different models is key in understanding the features of the languages.
 

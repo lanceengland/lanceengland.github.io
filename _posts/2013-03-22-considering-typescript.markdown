@@ -1,5 +1,6 @@
 ---
-date : 2013-03-22 12:22:22
+date : 2013-03-22 12:00:00
+title : Considering TypeScript
 ---
 # Considering TypeScript
 
