@@ -1,8 +1,8 @@
 ---
 date: 2019-05-19
-title: SQL Saturday 845 Recap
+title: "SQL Saturday &#35;845 Recap"
 ---
-# SQL Saturday 845 Recap
+# SQL Saturday #845 Recap
 
 Yesterday was [SQL Saturday Atlanta 845](https://www.sqlsaturday.com/845/EventHome.aspx), and as usual the event was great. It takes a lof of work to make something look so easy, and credit goes to [Rie Irish](https://twitter.com/IrishSQL) and the rest of the organizers, the speakers, and the sponsors for another smashing success.
 
