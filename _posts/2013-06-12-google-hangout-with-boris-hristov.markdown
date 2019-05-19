@@ -1,7 +1,7 @@
 ---
-date : 2013-06-12 12:00:00
+date: 2013-06-12
 tags: analysis
-title : Google Hangout with Boris Hristov
+title: Google Hangout with Boris Hristov
 ---
 # Google Hangout with Boris Hristov
 

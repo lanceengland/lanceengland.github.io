@@ -1,5 +1,6 @@
 ---
-date : 2015-10-20 03:57:20
+date: 2015-10-20
+title: Time and Attention
 ---
 # Time and Attention
 

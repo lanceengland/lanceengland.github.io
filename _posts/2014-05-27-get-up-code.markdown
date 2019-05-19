@@ -1,5 +1,6 @@
 ---
-date : 2014-05-27 03:12:27
+date: 2014-05-27
+title: Get Up &amp; Code
 ---
 # Get Up & Code
 

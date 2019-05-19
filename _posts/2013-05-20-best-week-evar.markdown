@@ -1,7 +1,7 @@
 ---
-date : 2013-05-20 12:00:00
+date: 2013-05-20
 tags: data
-title : Best week EVAR
+title: Best week EVAR
 ---
 # Best week EVAR
 

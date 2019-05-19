@@ -1,7 +1,7 @@
 ---
-date : 2013-10-08 12:00:00
+date: 2013-10-08
 tags: data
-title : T-SQL Tuesday &#35;47&#58; Your Best SQL Server Swag
+title: T-SQL Tuesday &#35;47&#58; Your Best SQL Server Swag
 ---
 # T-SQL Tuesday #47: Your Best SQL Server Swag
 

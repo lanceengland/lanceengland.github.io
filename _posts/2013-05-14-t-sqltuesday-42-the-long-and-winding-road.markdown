@@ -1,7 +1,7 @@
 ---
-date : 2013-05-14 12:00:00
+date: 2013-05-14
 tags: data
-title : T-SQL Tuesday &#35;42&#58; The Long and Winding Road
+title: T-SQL Tuesday &#35;42&#58; The Long and Winding Road
 ---
 # T-SQL Tuesday #42: The Long and Winding Road
 

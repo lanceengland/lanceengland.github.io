@@ -1,6 +1,7 @@
 ---
-date : 2014-07-24 04:01:24
+date: 2014-07-24
 tags: data analysis
+title: Extending the AdventureWorksDW2012 Date Dimension
 ---
 # Extending the AdventureWorksDW2012 Date Dimension table
 

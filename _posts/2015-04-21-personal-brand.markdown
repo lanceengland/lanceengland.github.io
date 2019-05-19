@@ -1,5 +1,6 @@
 ---
-date : 2015-04-21 11:29:21
+date: 2015-04-21
+title: Personal Brand
 ---
 # Personal Brand
 

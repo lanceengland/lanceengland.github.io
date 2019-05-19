@@ -1,6 +1,6 @@
 ---
-date : 2013-03-12 12:00:00
-title : Performance Tuning Challenge: DBAs vs Developers
+date: 2013-03-12
+title: Performance Tuning Challenge: DBAs vs Developers
 ---
 # Performance Tuning Challenge: DBAs vs Developers
 

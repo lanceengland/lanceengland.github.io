@@ -1,6 +1,7 @@
 ---
-date : 2014-04-25 05:26:25
+date: 2014-04-25
 tags: analysis
+title: SQL Saturday &#35;285&#58; Atlanta
 ---
 # SQL Saturday #285: Atlanta
 

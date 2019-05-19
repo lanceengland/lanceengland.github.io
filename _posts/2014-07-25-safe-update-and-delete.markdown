@@ -1,6 +1,7 @@
 ---
-date : 2014-07-25 03:32:25
+date: 2014-07-25
 tags: data
+title: Safe UPDATE and DELETE
 ---
 # Safe UPDATE and DELETE
 

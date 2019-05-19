@@ -1,6 +1,7 @@
 ---
-date : 2017-12-27 09:12:27
+date: 2017-12-27
 tags: data
+title: MERGE Quick Reference (T-SQL)
 ---
 # MERGE Quick Reference (T-SQL)
 

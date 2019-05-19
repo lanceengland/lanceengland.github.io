@@ -1,6 +1,7 @@
 ---
-date : 2014-02-25 12:23:25
+date: 2014-02-25
 tags: analysis
+title: MDX&#58; Fundamentals Presentation
 ---
 # MDX: Fundamentals Presentation
 

@@ -1,6 +1,7 @@
 ---
-date : 2014-03-24 01:32:24
+date: 2014-03-24
 tags: data
+title:  T-SQL Study&#58; Create View and Procedure Options
 ---
 # T-SQL Study: Create View and Procedure Options
 

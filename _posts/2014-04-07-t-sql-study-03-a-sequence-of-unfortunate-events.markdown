@@ -1,6 +1,7 @@
 ---
-date : 2014-04-07 07:02:07
+date: 2014-04-07
 tags: data
+title: T-SQL Study&#58; A SEQUENCE of Unfortunate Events
 ---
 # T-SQL Study: A SEQUENCE of Unfortunate Events
 

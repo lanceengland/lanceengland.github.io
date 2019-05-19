@@ -1,5 +1,6 @@
 ---
-date : 2014-02-03 06:22:03
+date: 2014-02-03
+title: Wrapping up 2013 and Goals for 2014
 ---
 # Wrapping up 2013 and Goals for 2014
 

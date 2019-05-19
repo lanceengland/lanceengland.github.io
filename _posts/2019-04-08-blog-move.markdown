@@ -1,5 +1,6 @@
 ---
-date : 2019-04-08 07:27:08
+date: 2019-04-08
+title: Blog Move
 ---
 # Blog Move
 

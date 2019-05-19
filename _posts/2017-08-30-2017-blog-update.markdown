@@ -1,5 +1,6 @@
 ---
-date : 2017-08-30 04:41:30
+date: 2017-08-30
+title: 2017 Blog Update
 ---
 # 2017 Blog Update
 

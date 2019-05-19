@@ -1,6 +1,7 @@
 ---
-date : 2014-03-24 04:24:24
+date: 2014-03-24
 tags: data
+title: T-SQL Study&#58; OFFSET FETCH
 ---
 # T-SQL Study: OFFSET FETCH
 

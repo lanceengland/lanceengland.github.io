@@ -1,5 +1,6 @@
 ---
-date : 2015-05-19 02:31:19
+date: 2015-05-19
+title: Farewell Squarespace
 ---
 # Farewell Squarespace
 

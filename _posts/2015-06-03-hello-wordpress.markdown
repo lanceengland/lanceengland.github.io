@@ -1,5 +1,6 @@
 ---
-date : 2015-06-03 03:53:03
+date: 2015-06-03
+title: Hello Wordpress
 ---
 # Hello Wordpress
 

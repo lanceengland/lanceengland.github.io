@@ -1,6 +1,7 @@
 ---
-date : 2014-05-22 11:24:22
+date: 2014-05-22
 tags: analysis
+title: SSAS Default NULL Measure
 ---
 # SSAS Default NULL Measure
 

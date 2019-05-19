@@ -1,6 +1,7 @@
 ---
-date : 2014-05-01 05:12:01
+date: 2014-05-01 05:12:01
 tags: analysis
+title: SSAS Clear Cache snippet
 ---
 # SSAS Clear Cache snippet
 

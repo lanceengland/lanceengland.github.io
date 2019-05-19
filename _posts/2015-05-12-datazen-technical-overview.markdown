@@ -1,6 +1,7 @@
 ---
-date : 2015-05-12 10:40:12
+date: 2015-05-12
 tags: analysis
+title: Datazen Technical Overview
 ---
 # Datazen Technical Overview
 

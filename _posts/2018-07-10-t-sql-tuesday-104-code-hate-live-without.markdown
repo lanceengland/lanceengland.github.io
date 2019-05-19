@@ -1,6 +1,7 @@
 ---
-date : 2018-07-10 06:36:10
+date: 2018-07-10
 tags: data automation
+title: T-SQL Tuesday &#35;104&#58; Code I would hate to live without
 ---
 # T-SQL Tuesday #104: Code I would hate to live without
 
