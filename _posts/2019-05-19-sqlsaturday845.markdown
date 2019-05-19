@@ -1,6 +1,6 @@
 ---
 date: 2019-05-19
-title: SQL Saturday &#35;845 Recap
+title: SQL Saturday 845 Recap
 ---
 # SQL Saturday 845 Recap
 
