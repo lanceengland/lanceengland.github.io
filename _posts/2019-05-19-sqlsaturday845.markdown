@@ -4,7 +4,7 @@ tags: data
 ---
 # SQL Saturday 845 Recap
 
-Yesterday was [SQL Saturday Atlanta &#35;845](https://www.sqlsaturday.com/845/EventHome.aspx), and as usual the event was great. It takes a lof of work to make something look so easy, and credit goes to [Rie Irish](https://twitter.com/IrishSQL?lang=en) and the rest of the organizers, teh speakers, and the sponsors for another smashing success.
+Yesterday was [SQL Saturday Atlanta 845](https://www.sqlsaturday.com/845/EventHome.aspx), and as usual the event was great. It takes a lof of work to make something look so easy, and credit goes to [Rie Irish](https://twitter.com/IrishSQL?lang=en) and the rest of the organizers, teh speakers, and the sponsors for another smashing success.
 
 I came away from the event with a renewed passion for my professional learning. Specifically, I am going to finally devote some time getting up to speed on containers and Kubernetes, and machine learning. It is an exciting time in the tech space, but it can be daunting too. Just remember that for every expert, there are thousands of people learning at the same time. Technology churn means improvement (usually), and it level-sets the playing field, giving everyone the opportunity to put in the work to become proficient.
 
