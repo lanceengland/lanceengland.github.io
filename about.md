@@ -1,6 +1,6 @@
 # About
 
-Lance England is a information technology specialist focused on data, analysis, integration, and automation.
+Lance England is a data professional focused on data, analysis, integration, and automation using SQL Server, Power BI, DAX, SQL Server Analysis Server, BizTalk, PowerShell, C#, and more. He has industry experience in health care, manufacturing, property rental, and non-profit sectors. He graduated from Georgia State University with a major in Computer Information Systems.
 
 ![Lance England profile picture](/assets/img/lance_england.jpg)
 
