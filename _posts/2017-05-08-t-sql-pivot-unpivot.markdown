@@ -17,8 +17,8 @@ The first query shows the initial data set.
 SELECT
   T.Name,
   T.Val1,
-    .Val2
-FR  M
+  T.Val2
+FROM
   (VALUES
   ('Apple', 'A1', 'A2'),
   ('Banana', 'B1', 'B2'),
@@ -37,8 +37,8 @@ This query takes the table-valued constructor from the first query and UNPIVOTS 
 SELECT
   UNPVT.Name,
   UNPVT.NEW_COLUMN_NAME,
-    NPVT.EXISTING_COL_NAME
-FR  M
+  UNPVT.EXISTING_COL_NAME
+FROM
   (VALUES
   ('Apple', 'A1', 'A2'),
    'Banana', 'B1', 'B2'),
