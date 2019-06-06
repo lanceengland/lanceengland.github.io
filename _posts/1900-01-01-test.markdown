@@ -1,7 +1,0 @@
----
-date: 1900-01-01
-title: "test file"
----
-# [{{ page.title }}]({{ page.id }})
-
-can I have hash char in link? [sql &#35;](http://foo.com)
