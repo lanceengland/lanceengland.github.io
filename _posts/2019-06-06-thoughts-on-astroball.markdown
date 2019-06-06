@@ -3,7 +3,7 @@ date: 2019-06-06
 tags: analysis
 title: "Thoughts on Astroball: The New Way to Win It All"
 ---
-# Thoughts on Astroball: The New Way to Win It All
+#Astroball: The New Way to Win It All
 
 I recently finished reading Astroball: The New Way to Win It All by Ben Reiter. It's a fairly quick read, especially if you are interested in the use of analytics in sports.
 
