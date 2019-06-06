@@ -1,7 +1,7 @@
 ---
 date: 2019-06-06
 tags: analysis
-title: "Thoughts on Astroball: The New Way to Win It All"
+title: "Astroball: The New Way to Win It All"
 ---
 #Astroball: The New Way to Win It All
 
