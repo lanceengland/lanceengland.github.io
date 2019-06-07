@@ -5,7 +5,7 @@ title: "Astroball: The New Way to Win It All"
 ---
 # Astroball: The New Way to Win It All
 
-I recently finished reading Astroball: The New Way to Win It All by Ben Reiter. It's a fairly quick read, especially if you are interested in the use of analytics in sports.
+I recently finished reading [Astroball: The New Way to Win It All](https://www.amazon.com/Astroball-New-Way-Win-All-ebook/dp/B078LNK35F/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=) by Ben Reiter. It's a fairly quick read, especially if you are interested in the use of analytics in sports.
 
 If you aren't familiar, the Houston Astros went from the winning the fewest games over three seasons in 50 years to winning the World Series two years later. They accomplished this feat by poaching two top analytical minds from the St. Louis Cardinals organization and, having full support of the owner, aggressively followed a full roster rebuild from the top club through their farm systems.
 
