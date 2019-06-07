@@ -9,7 +9,7 @@ I recently finished reading Astroball: The New Way to Win It All by Ben Reiter. 
 
 If you aren't familiar, the Houston Astros went from the winning the fewest games over three seasons in 50 years to winning the World Series two years later. They accomplished this feat by poaching two top analytical minds from the St. Louis Cardinals organization and, having full support of the owner, aggressively followed a full roster rebuild from the top club through their farm systems.
 
-This involved trading away top expensive veterans for draft capital, and continuously honing their algorithms and processes for evaluating prospects. Essentially, the tanked their short-term future for long-term results.
+This involved trading away top expensive veterans for draft capital, and continuously honing their algorithms and processes for evaluating prospects. Essentially, they tanked their short-term future for long-term results.
 
 ![Astroball: The New Way to Win It All](/assets/img/astroball.png)
 
