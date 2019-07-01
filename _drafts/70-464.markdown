@@ -12,6 +12,7 @@
   - implement column collation
   - implement online transaction processing (OLTP)
   - implement columnstore and sparse columns
+
 - Design, implement, and troubleshoot security
   - Implement data control language statements appropriately
   - troubleshoot connection issues
@@ -23,6 +24,7 @@
   - implement cross db ownership chaining
   - implement schema security
   - implement server roles
+
 - Design the locking granularity level
   - Choose the right lock mechanism for a given task
   - handle deadlocks
@@ -35,11 +37,14 @@
   - reduce locking contention
   - identify bottlenecks in data design
   - design appropriate concurrency control, such as pessimistic or optimistic
+
 - Implement indexes
   - Inspect physical characteristics of indexes and perform index maintenance
   - identify unused indexes
   - implement indexes
   - optimize indexes, including full, filter, statistics, and force
+  - Rebuild vs reorganize
+
 - Implement data types
   - Select appropriate data types, including
     - BLOBs
@@ -49,6 +54,7 @@
   - develop a Common Language Runtime (CLR) data type
   - implement appropriate use of @Table and #table
     - determine values based on implicit and explicit conversions
+
 - Create and modify constraints
   - Create constraints on tables
   - define constraints
@@ -66,12 +72,15 @@
   - implement parameters, including table valued, input, and output
   - implement error handling
   - including TRY…CATCH configure appropriate connection settings
+
 - Design T-SQL table-valued and scalar functions
   - Modify scripts that use cursors and loops into a SET-based operation
   - design deterministic and non-deterministic functions
+
 - Create, use, and alter user-defined functions (UDFs)
   - Implement deterministic or non-deterministic functions implement CROSS APPLY by using UDFs
   - implement CLR functions
+
 - Create and alter views
   - Set up and configure partitioned tables and partitioned views create indexed views
 
@@ -87,11 +96,13 @@
   - design table partitioning
   - design a BLOB storage strategy, including filestream and filetable
   - design tables for In-Memory OLTP
+
 - Design for concurrency
   - Develop a strategy to maximize concurrency
   - define a locking and concurrency strategy
   - design a transaction isolation strategy, including server database and session
   - design triggers for concurrency
+
 - Design indexes
   - Design indexes and data structures
   - design filtered indexes
@@ -99,6 +110,7 @@
   - design statistics
   - assess which indexes on a table are likely to be used, given different search arguments (SARG)
   - design spatial and XML indexes
+
 - Design data integrity
   - Design a table data integrity policy, including
     - checks
@@ -108,6 +120,7 @@
     - XML schema
     - nullability
   - select a primary key
+
 - Design for implicit and explicit transactions
   - Manage transactions
   - ensure data integrity by using transactions
@@ -130,8 +143,10 @@
   - implement full text and semantic search
   - analyze execution plans
   - implement plan guides
+
 - Troubleshoot and resolve performance problems
   - Interpret performance monitor data integrate performance monitor data with SQL Traces
+
 - Optimize indexes
   - Develop an optimal strategy for clustered indexes
   - analyze index usage
@@ -141,6 +156,7 @@
   - implement full-text indexing
   - implement columnstore indexes
   - optimize online index maintenance
+
 - Capture and analyze execution plans
   - Collect and read execution plans
   - create an index based on an execution plan
@@ -148,6 +164,7 @@
   - split large queries
   - consolidate smaller queries
   - review and optimize parallel plans
+
 - Collect performance and system information
   - Monitor performance using Dynamic Management Views
   - collect output from the Database Engine Tuning Advisor
