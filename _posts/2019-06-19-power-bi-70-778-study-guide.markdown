@@ -51,4 +51,4 @@ https://app.pluralsight.com/library/courses/power-bi-playbook-shared-data/table-
 
 Good luck and happy studying!
 
-![Microsoft 70-778 exam](/assets/img/exam-passed-70-778.png)
+[![Microsoft 70-778 exam](/assets/img/exam-passed-70-778.png)](https://www.youracclaim.com/users/edward-england/badges)
