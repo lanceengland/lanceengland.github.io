@@ -15,8 +15,8 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_data_posts %}
-{% raw %}<a name="data"></a>{% endraw %}
 <h2>Data</h2>
+<a name="data"></a>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "data" -%}
@@ -36,8 +36,8 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_analysis_posts %}
-{% raw %}<a name="analysis"></a>{% endraw %}
 <h2>Analysis</h2>
+<a name="analysis"></a>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "analysis" -%}
@@ -57,7 +57,8 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_integration_posts %}
-{% raw %}<a name="integration"><h2>Integration</h2></a>{% endraw %}
+<h2>Integration</h2>
+<a name="integration"></a>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "integration" -%}
@@ -77,8 +78,8 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_automation_posts %}
-{% raw %}<a name="automation"></a>{% endraw %}
 <h2>Automation</h2>
+<a name="automation"></a>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "automation" -%}

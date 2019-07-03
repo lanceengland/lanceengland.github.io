@@ -45,7 +45,7 @@
         <div id="post-info">
             <img style="width:1em" src="/assets/img/clock.svg" /><span>{{ page.date | date_to_string }}</span>
             <a href="{{ page.id }}"><img style="width:1em" src="/assets/img/link.svg" /></a><span>Permalink</span>
-            <img style="width:1em" src="/assets/img/tags.svg" /> <span>{%- for tag in page.tags -%}{{ tag }}&nbsp;{%- endfor -%}</span>
+            <img style="width:1em" src="/assets/img/tags.svg" /> <span>{%- for tag in page.tags -%}<a href="/blog#{{ tag }}">{{ tag }}</a>&nbsp;{%- endfor -%}</span>
         </div>
         {% endif %}
       </section>
