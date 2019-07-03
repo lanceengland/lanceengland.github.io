@@ -1,8 +1,12 @@
 ---
 ---
 
-// start content
+// start content, the front matter section above is required
 @import "{{ site.theme }}";
+
+h2.blog-category {
+    margin: 0;
+}
 ul.posts {
     list-style: none;
     text-indent: -1em;
@@ -14,4 +18,7 @@ ul.posts {
 }
 #post-info span {
     margin-right: .5em;
+}
+#post-info a {
+    color: #373737;
 }
