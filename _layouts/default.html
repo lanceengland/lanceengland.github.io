@@ -40,6 +40,9 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
+        {% if page.id %}
+        <!-- This is a post -->
+        {% endif %}
       </section>
     </div>
 
