@@ -15,7 +15,8 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_data_posts %}
-{% raw %}<a name="data"></a><h2>Data</h2>{% endraw %}
+<a name="data"></a>
+<h2>Data</h2>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "data" -%}
