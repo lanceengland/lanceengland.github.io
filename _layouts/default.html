@@ -40,9 +40,13 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
-        {% if page.id %}
-        
-        <!-- This is a post --> {% post.tags %}
+        {% if page.id %}       
+          <!-- This is a post --> 
+          <div>
+              <img style="width:1em" src="/assets/img/clock.svg" /> {{ page.date }}
+              <img style="width:1em" src="/assets/img/link.svg" /> {{ page.id }}
+              <img style="width:1em" src="/assets/img/tags.svg" />
+          </div>
         {% endif %}
       </section>
     </div>
