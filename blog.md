@@ -57,8 +57,7 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_integration_posts %}
-{% raw %}<a name="integration"></a>{% endraw %}
-<h2>Integration</h2>
+{% raw %}<a name="integration"><h2>Integration</h2></a>{% endraw %}
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "integration" -%}
