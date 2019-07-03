@@ -15,8 +15,7 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_data_posts %}
-<a name="data"></a>
-<h2>Data</h2>
+<a name="data"></a><h2>Data</h2>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "data" -%}
@@ -36,7 +35,7 @@ All blog posts by category.
 {%- endfor -%}
 
 {% if has_analysis_posts %}
-{% raw %}<a name="analysis"></a><h2>Analysis</h2>{% endraw %}
+<a name="analysis"></a><h2>Analysis</h2>
 <ul class="posts">
 {%- for post in site.posts -%}
 {%- if post.tags contains "analysis" -%}
