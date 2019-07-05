@@ -41,7 +41,7 @@
       <section id="main_content" class="inner">
         {{ content }}
 
-        {% if page.id or page.title == "Lance-England.com" %}
+        {% if page.id %}
         <div id="post-info">
             <img style="width:1em" src="/assets/img/clock.svg" /><span>{{ page.date | date_to_string }}</span>
             <a href="{{ page.id }}"><img style="width:1em" src="/assets/img/link.svg" /></a><span>Permalink</span>
