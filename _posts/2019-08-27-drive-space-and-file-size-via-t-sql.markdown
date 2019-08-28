@@ -5,7 +5,7 @@ title: "Drive Space and File Size via T-SQL"
 ---
 # Drive Space and File Size via T-SQL
 
-I keep using these scripts so I'm putting them here for convienience.
+I keep using these scripts so I'm putting them here for convenience.
 
 Get drive space for drives on the SQL Server
 
