@@ -11,6 +11,6 @@ I presented on [DAX Fundamentals](https://www.sqlsaturday.com/919/Sessions/Detai
 
 While there, I attended great sessions on PySpark by [Brad Llewellyn](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=5783), Row Level Security Patterns in Power BI by [Reza Rad](https://www.sqlsaturday.com/919/Speakers/Details.aspx?name=reza-rad&spid=785), AI for the Masses by [Ryan Wade](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=4929), and Aggregations in Power BI by [Shabnam Watson](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=4893). All presenters did a really good job.
 
-The Improving Atlanta team was represented well as a main sponsor, part of the organizer team, and with seven session speakers.
+The [Improving Atlanta](https://improving.com/location/atlanta) team was represented well as a main sponsor, part of the organizer team, and with seven session speakers.
 
 ![Improving Atlanta at SQL Saturday 919, Oct 19, 2019](/assets/img/sqlsat919-group.jpg)
