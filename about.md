@@ -8,6 +8,10 @@ Lance England is a data professional focused on data, analysis, integration, and
 
 Slides and demos from past presentations.
 
+**Fundamentals of DAX**  
+SQL Saturday #919 Atlanta, GA - 2019 October 19  
+[Slides/Demos](/assets/presentations/dax_fundamentals_sqlsat919.zip)
+
 **Fundamentals of MDX**  
 SQL Saturday #328 Birmingham AL - 2014 August 08  
 [Slides/Demos](/assets/presentations/fundamentals_of_mdx_sqlsat328.zip)

@@ -3,12 +3,14 @@ date: 2019-05-19
 tags: data
 title: "SQL Saturday &#35;919 Recap"
 ---
-# SQL Saturday #919 Recap
+# SQL Saturday &#35;919 Recap
 
-Yesterday was [SQL Saturday Atlanta &#35;845](https://www.sqlsaturday.com/845/EventHome.aspx), and as usual the event was great. It takes a lof of work to make something look so easy, and credit goes to [Rie Irish](https://twitter.com/IrishSQL) and the rest of the organizers, the speakers, and the sponsors for another smashing success.
+October 19, 2019 was [SQL Saturday Atlanta &#35;919 BI Edition](https://www.sqlsaturday.com/919/Sessions/Schedule.aspx), and the event was really fun and educational. Thanks to the organizers, sponsors, speakers, and attendees.
 
-I came away from the event with a renewed passion for my professional learning. Specifically, I am going to finally devote some time getting up to speed on containers and Kubernetes, and machine learning. It is an exciting time in the tech space, but it can be daunting too. Just remember that for every expert, there are thousands of people learning at the same time. Technology churn means improvement (usually), and it level-sets the playing field, giving everyone the opportunity to put in the work to become proficient.
+I presented on [DAX Fundamentals](https://www.sqlsaturday.com/919/Sessions/Details.aspx?sid=96128). The slide deck and demos can be found on the event session page, but also on my [About Me](https://lance-england.com/about) page.
 
-The Improving Atlanta team represented in force, as a platinum sponsor, a few event organizers, five session speakers, and around 40 attendees.
+While there I attended great sessions on PySpark by [Brad Llewellyn](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=5783), Row Level Security Patterns in Power BI by [Reza Rad](https://www.sqlsaturday.com/919/Speakers/Details.aspx?name=reza-rad&spid=785), AI for the Masses by [Ryan Wade](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=4929), and Aggregations in Power BI by [Shabnam Watson](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=4893).
+
+The Improving Atlanta team represented again a sponsor, part of the organizer team, and seven session speakers.
 
 ![Improving Atlanta at SQL Saturday 919, Oct 19, 2019](/assets/img/sqlsat919-group.jpg)
