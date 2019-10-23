@@ -1,5 +1,5 @@
 ---
-date: 2019-05-19
+date: 2019-10-21
 tags: data
 title: "SQL Saturday &#35;919 Recap"
 ---
