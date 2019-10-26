@@ -7,7 +7,7 @@ title: "SQL Saturday &#35;919 Recap"
 
 October 19, 2019 was [SQL Saturday Atlanta &#35;919 BI Edition](https://www.sqlsaturday.com/919/Sessions/Schedule.aspx), and the event was really fun and educational. Thanks to the organizers, sponsors, speakers, and attendees.
 
-I presented on [DAX Fundamentals](https://www.sqlsaturday.com/919/Sessions/Details.aspx?sid=96128). The slide deck and demos can be found on the event session page, but also on my [About Me](https://lance-england.com/about) page. Thank you for all that attended. I hope I was able to make some of the tricky parts of DAX less tricky.
+I presented on [DAX Fundamentals](https://www.sqlsaturday.com/919/Sessions/Details.aspx?sid=96128). The slide deck and demos can be found on the event session page, and also on my [About Me](https://lance-england.com/about) page. Thank you to all that attended. I hope I was able to make some of the tricky parts of DAX less tricky.
 
 While there, I attended great sessions on PySpark by [Brad Llewellyn](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=5783), Row Level Security Patterns in Power BI by [Reza Rad](https://www.sqlsaturday.com/919/Speakers/Details.aspx?name=reza-rad&spid=785), AI for the Masses by [Ryan Wade](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=4929), and Aggregations in Power BI by [Shabnam Watson](https://www.sqlsaturday.com/919/Speakers/Details.aspx?spid=4893). All presenters did a really good job.
 
