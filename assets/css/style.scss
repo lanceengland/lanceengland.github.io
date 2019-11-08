@@ -4,6 +4,9 @@
 // start content, the front matter section above is required
 @import "{{ site.theme }}";
 
+#project_tagline a {
+    color: #fff;
+}
 h2.blog-category {
     margin: 0;
 }
