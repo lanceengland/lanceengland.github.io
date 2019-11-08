@@ -16,5 +16,3 @@ Last but certainly not least, for the first time I decided to attend the after-p
 Whew, the week was exhilarating and frankly it made returning to "normal" this morning a bit drab ;) So, that was my best week EVAR*
 
 *yes, i misspelled this on purpose! Humor, people!
-
-A recap of an amazing week I had that included a week of training by Itzik Ben-Gan and attending SQL Saturday #220.​
