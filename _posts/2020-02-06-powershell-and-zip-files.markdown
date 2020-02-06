@@ -13,11 +13,15 @@ Yesterday, I needed to cross-reference a large set of files in an archive direct
 
 The data I needed from SQL Server I queried from SSMS and copy/pasted into Excel. For the zipped file data, I used the (slightly scrubbed) script below.
 
-Now, I'll admit, if I wanted to be extra fancy I would have queried the SQL Server from PowerShell (maybe with the [dbatools](https://dbatools.io/) module) and then created the Excel file from Doug Finke's [ImportExcel](https://github.com/dfinke/ImportExcel) module. However, time was a priority, so I just added all the cross-reference data I needed to a [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.8) object and then piped ToString() to the clipboard and then pasted into Excel. I quick VLOOKUP formula later and I had what I needed.
+Now, I'll admit, if I wanted to be extra fancy I would have queried the SQL Server from PowerShell (maybe with the [dbatools](https://dbatools.io/) module) and then created the Excel file from Doug Finke's [ImportExcel](https://github.com/dfinke/ImportExcel) module. However, time was a priority, so I just added all the cross-reference data I needed to a [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=netframework-4.8) object and copied the full string to the clipboard and then I pasted into Excel. I quick VLOOKUP formula later and I had what I needed.
 
 ## Notes
 
-You have to reference the System.IO.Compression.FileSystem assembly. The call to System.IO.Path.GetTempFileName() creates a file and returns the path. I did not see an option to overwrite files during the zip extraction, so I delete the temp file first, and also after for cleanup. If anybody has suggestions for improvement, reach out via one the the contact links at the bottom of the web site.
+You have to reference the System.IO.Compression.FileSystem assembly. The call to System.IO.Path.GetTempFileName() creates a file and returns the path. I did not see an option to overwrite files during the zip extraction, so I delete the temp file first, and also after for cleanup. Also, I used Write-Host for me, and [it no longer kills puppies](https://twitter.com/jsnover/status/727902887183966208?lang=en).
+
+![Puppies are no longer harmed by Write-Host](/assets/img/pug.jpg)
+
+If anybody has suggestions for improvement, reach out via one the the contact links at the bottom of the web site.
 
 <pre data-enlighter-language="shell">
 Clear-Host
