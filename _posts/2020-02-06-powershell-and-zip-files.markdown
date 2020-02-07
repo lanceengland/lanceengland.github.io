@@ -21,7 +21,7 @@ You have to reference the System.IO.Compression.FileSystem assembly. The call to
 
 ![Puppies are no longer harmed by Write-Host](/assets/img/pug.jpg)
 
-If anybody has suggestions for improvement, reach out via one the the contact links at the bottom of the web site.
+If anybody has suggestions for improvement, reach out via one of the contact links at the bottom of the web site.
 
 <pre data-enlighter-language="shell">
 Clear-Host
@@ -49,3 +49,5 @@ Get-ChildItem -Path '\\company.fileshare\blahblah\file\archive' |
     }
 Write-Host "$(Get-Date)"
 </pre>
+
+[Photo by Steshka Willems from Pexels](https://www.pexels.com/@steshkawillems?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
