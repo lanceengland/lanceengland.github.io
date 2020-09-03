@@ -41,8 +41,8 @@ SELECT
 FROM
   (VALUES
   ('Apple', 'A1', 'A2'),
-   'Banana', 'B1', 'B2'),
-   'Cat', 'C1', 'C2')
+  ('Banana', 'B1', 'B2'),
+  ('Cat', 'C1', 'C2')
  ) AS T(Name, Val1, Val2)
 UNPIVOT
   (NEW_COLUMN_NAME FOR EXISTING_COL_NAME IN (Val1, Val2)) AS UNPVT;
@@ -66,8 +66,8 @@ FROM
   ('Banana', 'B1', 'Val1'),
   ('Banana', 'B2', 'Val2'),
   ('Cat', 'C1', 'Val1'),
-  ('Cat', 'C2', 'Val2'))
-  AS T(Name, NEW_COLUMN_NAME, EXISTING_COL_NAME)
+  ('Cat', 'C2', 'Val2')
+  ) AS T(Name, NEW_COLUMN_NAME, EXISTING_COL_NAME)
 PIVOT (
   MIN(NEW_COLUMN_NAME) FOR EXISTING_COL_NAME IN ([Val1], [Val2])
 ) as Pvt;
