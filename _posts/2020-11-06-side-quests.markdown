@@ -1,8 +1,8 @@
 ---
 date: 2020-11-06
-title: "Side Quests"
+title: "Embrace the Side-Quests"
 ---
-# Side-Quests
+# Embrace the Side-Quests
 
 What are side-quests? In video games, they are tasks given to the player that have no direct bearing on the main story/campaign of the game. Completion of a side-quest often results in the acquisition of money, items, or unlocks another side-quest.
 
