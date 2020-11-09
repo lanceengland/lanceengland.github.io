@@ -12,4 +12,4 @@ For example, I am currently working on my cloud and devops skills, perhaps even 
 
 Whew. To summarize, my current side-quest is AZ-400 -> AZ-104 -> Networking fundamentals -> Subnetting. Once I finish up the networking fundamentals, I will get back to working through the AZ-104 material and I'm sure there will be more areas I will want to pause and dive a little deeper.
 
-My point is, you should always be prepared to take side-quests if it means aquiring valuable skills. Be patient. Embrace the process. There is a literal infinite amount of knowledge to learn, so focus on a direction, and understand the journey is part of the quest.
+My point is, you should always be prepared to take side-quests because it means aquiring valuable skills. Be patient. Embrace the process. There is a literal infinite amount of knowledge to learn, so focus on a direction, and understand the journey is part of the quest.
