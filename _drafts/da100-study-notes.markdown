@@ -38,11 +38,11 @@ Power BI is:
 
 Building blocks in Power BI:
 
-Visualizations - visual representation of data
-Datasets - collection of data
-Reports - collection of visualizations on one or more pages
-Dashboards - collection of visualizations form one page
-Tiles - single visualization
+- Visualizations - visual representation of data
+- Datasets - collection of data
+- Reports - collection of visualizations on one or more pages
+- Dashboards - collection of visualizations form one page
+- Tiles - single visualization
 
 App - a collection of preset visuals, data, reports packaged to share
 
@@ -101,7 +101,7 @@ Best Practice - Turn off Auto DateTime, as it builds a hidden date table for eac
 
 Composite models allow a combination of imported tables and DirectQuery tables. Relationships between imported and DirectQuery tables default to many-to-many, but can be changed. It defauls to many-to-many because it can't detect nor assume uniqueness for the DirectQuery table.
 
-Many-to-many relationships are now supported and can replace the tradtional bridge table method. The important bit to remember is to still use single-direction relationsjip propogation. Marco Russo has a good presentation on this.
+Many-to-many relationships are now supported and can replace the tradtional bridge table method. The important bit to remember is to still use single-direction filter propogation. Marco Russo has a very good [presentation](https://www.youtube.com/watch?v=qMs8YIpcqMs) on this.
 
 Aggregations are a powerful feature for combining DirectQuery detail data with the performance of imported data. Aggregations import some higher grain of the detail data. A key supporting feature is Dual mode for related dimension tables. Dual mode imports the data for DAX queries against the aggregation, and treating the table as DirectQuery when relating to the detail data. This is a very important performance feature to understand.
 
@@ -124,7 +124,6 @@ Last Inventory Count =
 CALCULATE (
     SUM ( 'Warehouse'[Inventory Count] ),
     LASTDATE ( 'Date'[Date] ))
-
 </pre>
 
 Every time the measure is evaluated, it uses the latest date visible in the filter context.
