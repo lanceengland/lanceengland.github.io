@@ -1,10 +1,12 @@
 ---
-date: 2020-11-27
+date: 2020-12-20
 title: "DA-100 Study Notes"
 ---
 # DA-100 Study Notes
 
-These are my study notes for [Exam DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/exams/da-100) upon passing achieves [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-us/learn/certifications/data-analyst-associate). These notes were all compiled from the offical learning paths and related Microsoft documentation. This is NOT an exam dump.
+Yesterday I passed Microsoft [Exam DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/exams/da-100) and because a [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-us/learn/certifications/data-analyst-associate). The following are notes I compiled from the offical learning paths and related Microsoft documentation. They are not comprehensive of everything on the exam and are NOT a replacement for going throught the free learning paths (which are highly recommended). In additional, these note are NOT an exam dump. With that said, if you are interested in Power BI and/or pursuing the Data Analyst Associate certification, perhaps the notes will be of benefit.
+
+[![Microsoft Certified: Data Analyst Associate](/assets/img/microsoft-analyst-associate.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
 
 ## Get started with Microsoft data analytics - [2 Modules](https://docs.microsoft.com/en-us/learn/paths/data-analytics-microsoft/)
 

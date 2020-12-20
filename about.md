@@ -34,4 +34,6 @@ Atlanta MDF - 2013 August 12
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />All slides and demos are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-[![Microsoft 70-778 exam](/assets/img/mcsa-bi-reporting-2019.png)](https://www.youracclaim.com/badges/717fe12f-2d04-4bac-9702-d0ba3bd7e27a/public_url)
+[![MCSA: BI Reporting](/assets/img/mcsa-bi-reporting-2019.png)](https://www.youracclaim.com/badges/717fe12f-2d04-4bac-9702-d0ba3bd7e27a/public_url)
+
+[![Microsoft Certified: Data Analyst Associate](/assets/img/microsoft-analyst-associate.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
