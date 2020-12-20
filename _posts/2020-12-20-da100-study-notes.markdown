@@ -93,9 +93,9 @@ Merge queries are like SQL JOIN (INNER, LEFT OUTER, FULL OUTER)
 
 Date Table - can be imported from a DW (best), built in Power Query (great), built with DAX (good).
 
-Power Query - =List.Dates(#date(2011,05,31), 365*10, #duration(1,0,0,0)) Then convert the List to Table, then add columns as needed. There are many built-in date conversions in the UI. Highlight the date column, Add Column -> Date (in the From Date & Time group).
+**Power Query** - = List.Dates(#date(2011,05,31), 365*10, #duration(1,0,0,0)) Then convert the List to Table, then add columns as needed. There are many built-in date conversions in the UI. Highlight the date column, Add Column -> Date (in the From Date & Time group).
 
-DAX - CALENDAR or CALENDARAUTO, then add each column e.g. DayOfMonth, Year, etc. The table won't compress quite as well, but date tables are small enough to have negligible difference.
+**DAX** - CALENDAR or CALENDARAUTO, then add each column e.g. DayOfMonth, Year, etc. The table won't compress quite as well, but date tables are small enough to have negligible difference.
 
 Mark Table as Date Table. Dates must not duplicate, and not have gaps.
 
