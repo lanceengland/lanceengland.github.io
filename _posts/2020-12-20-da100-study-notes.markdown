@@ -1,14 +1,22 @@
 ---
 date: 2020-12-20
-title: "DA-100 Study Notes"
+title: "Passing the DA-100 Exam - Study Notes"
 ---
-# DA-100 Study Notes
+# Passing the DA-100 Exam - Study Notes
 
-Yesterday I passed [Exam DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/exams/da-100) became a [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-us/learn/certifications/data-analyst-associate). The following are notes I compiled from the offical learning paths and related Microsoft documentation. They are not comprehensive of everything on the exam and are NOT a replacement for going throught the free learning paths (which are highly recommended). In additional, these note are NOT an exam dump. With that said, if you are interested in Power BI and/or pursuing the Data Analyst Associate certification, perhaps the notes will be of benefit.
+I recently passed [Exam DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/exams/da-100) and earned [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-us/learn/certifications/data-analyst-associate). The DA-100 is the new role-based replacement for [Exam 70-778: Analyzing and Visualizing Data with Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/exams/70-778) which retires January 31, 2021. While much of the exam content overlaps, the skills measured has expanded and the weights adjusted. Luckily, Microsoft has done a really nice job with their free learning paths to prepare for the exam.
+
+## Preparation
+
+The Learning Paths are listed at the bottom of the [exam page](https://docs.microsoft.com/en-us/learn/certifications/exams/da-100). They walk throuigh all the features with links to official Microsoft Docs pages for more information. In addition, they offer 'sandbox' labs to give hands-on practice for the topics. It is not a replacement for having some experience working with Power BI, but it is very helpful and walks through features perhaps not used before.
+
+The following are notes I compiled during my exam preparation. Everything is from the learning paths are related documentation. My notes are NOT comprehensive of everything on the exam and should not be considered a replacement for preparation. They are analogous to [CliffsNotes](https://en.wikipedia.org/wiki/CliffsNotes) for the DA-100 learning paths. I used my notes as a quick review the morning of the exam. Best of luck in your DA-100 preparation!
 
 [![Microsoft Certified: Data Analyst Associate](/assets/img/microsoft-analyst-associate.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
 
-## Get started with Microsoft data analytics - [2 Modules](https://docs.microsoft.com/en-us/learn/paths/data-analytics-microsoft/)
+## Get started with Microsoft data analytics
+
+[2 Modules](https://docs.microsoft.com/en-us/learn/paths/data-analytics-microsoft/)
 
 This learning path summarizes the types of analytics, related roles, and parts of the Power BI platform.
 
@@ -48,7 +56,9 @@ Building blocks in Power BI:
 
 App - a collection of preset visuals, data, reports packaged to share
 
-## Prepare data for analysis - [2 modules](https://docs.microsoft.com/en-us/learn/paths/prepare-data-power-bi/)
+## Prepare data for analysis
+
+[2 modules](https://docs.microsoft.com/en-us/learn/paths/prepare-data-power-bi/)
 
 This learning path how to connect to various data sources and transform it.
 
@@ -87,7 +97,9 @@ Append queries are like SQL UNION ALL.
 
 Merge queries are like SQL JOIN (INNER, LEFT OUTER, FULL OUTER)
 
-## Model data in Power BI - [3 modules](https://docs.microsoft.com/en-us/learn/paths/model-power-bi/)
+## Model data in Power BI
+
+[3 modules](https://docs.microsoft.com/en-us/learn/paths/model-power-bi/)
 
 ### I. Design a data model in Power BI
 
@@ -165,7 +177,9 @@ Read more about DirectQuery:
 
 Aggregations can be used to improve query performance of DirectQuery. The aggregation table can either be in-memory or DirectQuery. Raed more on Aggregations: [Use aggregations in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-aggregations).
 
-## Visualize data in Power BI - [4 modules](https://docs.microsoft.com/en-us/learn/paths/visualize-data-power-bi/)
+## Visualize data in Power BI
+
+[4 modules](https://docs.microsoft.com/en-us/learn/paths/visualize-data-power-bi/)
 
 ### I. Work with Power BI visuals
 
@@ -311,7 +325,9 @@ Not built in Power BI Desktop or the service; built with Power BI Report Builder
 
 Paginated reports can connect to Power BI datasets. It uses the MDX editor, not the SQL editor in those cases.
 
-## Data analysis in Power BI - [2 modules](https://docs.microsoft.com/en-us/learn/paths/perform-analytics-power-bi/)
+## Data analysis in Power BI
+
+[2 modules](https://docs.microsoft.com/en-us/learn/paths/perform-analytics-power-bi/)
 
 ### I. Perform analytics in Power BI
 
@@ -341,7 +357,9 @@ Decomposition trees - a visual that will automatically breakdown/drill-down meas
 
 AI splits consider all available fields and determine which one to drill into to get the highest/lowest value of the measure analyzed.
 
-## Manage workspaces and datasets in Power BI - [3 modules](https://docs.microsoft.com/en-us/learn/paths/manage-workspaces-datasets-power-bi/)
+## Manage workspaces and datasets in Power BI
+
+[3 modules](https://docs.microsoft.com/en-us/learn/paths/manage-workspaces-datasets-power-bi/)
 
 ### Create and manage workspaces in Power BI
 
