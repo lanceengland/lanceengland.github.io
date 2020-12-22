@@ -11,7 +11,7 @@ I recently passed [Exam DA-100: Analyzing Data with Microsoft Power BI](https://
 
 The learning paths are listed at the bottom of the [exam page](https://docs.microsoft.com/en-us/learn/certifications/exams/da-100). They walk through all the features and link to related Microsoft Docs pages for more information. In addition, they offer 'sandbox' labs to give hands-on practice for the topics. While not a replacement for working experience with Power BI, they are still an excellent way to work through the presented topics.
 
-The following are notes I compiled during exam preparation. All notes are from the learning paths are related documentation. They are NOT comprehensive of everything on the exam, and shouldn't be considered a replacement for preparation. I wanted to create a quick way to review the learning objectives the morning of the exam. To all pursuing the DA-100, I wish you the best of luck in your!
+The following are notes I compiled during exam preparation. All notes are from the learning paths and related documentation. They are NOT comprehensive of everything on the exam, and shouldn't be considered a replacement for preparation. I wanted to create a quick way to review the learning objectives the morning of the exam. To all pursuing the DA-100, I wish you the best of luck in your!
 
 [![Microsoft Certified: Data Analyst Associate](/assets/img/microsoft-analyst-associate.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
 
