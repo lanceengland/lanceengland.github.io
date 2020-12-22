@@ -75,9 +75,9 @@ Storage modes:
 
 Additional option for connecting to multidimensional i.e. Analysis Services is called Connect Live (formerly named Live Connect).
 
-All queries go through Power Query. Power Query can optimize source queries in some circumstances. The process is called query folding. Any transformation that has an anagalous SQL stement e.g WHERE, GROUP BY, SORT, UNION ALL, and JOIN can generally be folded.
+All queries go through Power Query. Power Query can optimize source queries in some circumstances. The process is called query folding. Any transformation that has an anagalous SQL statement e.g WHERE, GROUP BY, SORT, UNION ALL, and JOIN can generally be folded.
 
-Query Diagnostics is a tool new to me that is part of Power Query. Enable diagnostice, refresh the source(s), then stop the diagnostics. It presents information for each transformation step!
+Query Diagnostics is a tool new to me that is part of Power Query. Enable diagnostics, refresh the source(s), then stop the diagnostics. It presents information for each transformation step!
 
 Optimization techniques:
 
@@ -249,7 +249,7 @@ The following features work together:
 - Selections allow you to enable/disable items from the bookmark. This is viewable in the slection pane.
 - Buttons have actions, one of which is to display a bookmark.
 
-Buuton conditional formatting based on a measure can include the action.
+Button: conditional formatting based on a measure can include the action.
 
 Cross-report drill-through - Can be enabled/disabled in Power BI Deskop options and/or Power BI service. Allow a report to drill-through to a different report. Note: Navigation 'Back' button will be created automatically but should be deleted because it 'Back' only work within navigation within a report.
 
@@ -298,7 +298,7 @@ Dashoards support themes, both out-of-the-box themes and custom themes authored 
 
 Question in Learning Path I got wrong - In both reports and dashboards, you can use the slicers and filter by selecting a data point. Hmmm.
 
-Data alerts are only in the power BI service for certainn visuals: KPI visuals, gauges, and cards. Alerts will show an alert icon over the tile (though sometimes the browser cache requires F5 reload) and an optional email.
+Data alerts are only in the power BI service for certain visuals: KPI visuals, gauges, and cards. Alerts will show an alert icon over the tile (though sometimes the browser cache requires F5 reload) and an optional email.
 
 Report users can configure their own set of alerts.
 
@@ -308,9 +308,9 @@ Q&A - Natural-language interface for the data. Three main components:
 2. Pre-populated suggestion tiles
 3. Pin visual icon
 
-Real-time data is supported through streaming datasets. These are stored in cache and do no support data modeling. Tiles on a dashboard are bound directly to the streaming dataset.
+Real-time data is supported through streaming datasets. These are stored in cache and do not support data modeling. Tiles on a dashboard are bound directly to the streaming dataset.
 
-Read more [Real-time streaming in Power BI](https://docs.microsoft.com/en-us/power-bi/connect-data/service-real-time-streaming)
+Read more: [Real-time streaming in Power BI](https://docs.microsoft.com/en-us/power-bi/connect-data/service-real-time-streaming)
 
 Data clasification - a way to tag reports as informational awareness ONLY; no actual security is enforced by the Power BI service.
 
