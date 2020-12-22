@@ -1,5 +1,6 @@
 ---
-date: 2020-12-20
+date: 2020-12-22
+tags: data analysis
 title: "Passing the DA-100 Exam - Study Notes"
 ---
 # Passing the DA-100 Exam - Study Notes
