@@ -75,7 +75,7 @@ Storage modes:
 
 Additional option for connecting to multidimensional i.e. Analysis Services is called Connect Live (formerly named Live Connect).
 
-All queries go through Power Query. Power Query can optimize source queries in some circumstances. The process is called query folding. Any transformation that has an anagalous SQL statement e.g WHERE, GROUP BY, SORT, UNION ALL, and JOIN can generally be folded.
+Both import and DirectQuery go through Power Query (Connect Live does NOT). Power Query can optimize source queries in some circumstances. The process is called query folding. Any transformation that has an anagalous SQL statement e.g WHERE, GROUP BY, SORT, UNION ALL, and JOIN can generally be folded.
 
 Query Diagnostics is a tool new to me that is part of Power Query. Enable diagnostics, refresh the source(s), then stop the diagnostics. It presents information for each transformation step!
 
