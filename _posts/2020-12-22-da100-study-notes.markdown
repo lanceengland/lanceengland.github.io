@@ -15,6 +15,8 @@ The following are notes I compiled during exam preparation. All notes are from t
 
 [![Microsoft Certified: Data Analyst Associate](/assets/img/microsoft-analyst-associate.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
 
+***
+
 ## Get started with Microsoft data analytics
 
 [2 Modules](https://docs.microsoft.com/en-us/learn/paths/data-analytics-microsoft/)
@@ -57,6 +59,8 @@ Building blocks in Power BI:
 
 App - a collection of preset visuals, data, reports packaged to share
 
+***
+
 ## Prepare data for analysis
 
 [2 modules](https://docs.microsoft.com/en-us/learn/paths/prepare-data-power-bi/)
@@ -97,6 +101,8 @@ Power Query examines the first 1000 rows by default. Change this by clicking the
 Append queries are like SQL UNION ALL.
 
 Merge queries are like SQL JOIN (INNER, LEFT OUTER, FULL OUTER)
+
+***
 
 ## Model data in Power BI
 
@@ -177,6 +183,8 @@ Read more about DirectQuery:
 - [DirectQuery model guidance in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/guidance/directquery-model-guidance).
 
 Aggregations can be used to improve query performance of DirectQuery. The aggregation table can either be in-memory or DirectQuery. Raed more on Aggregations: [Use aggregations in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-aggregations).
+
+***
 
 ## Visualize data in Power BI
 
@@ -326,6 +334,8 @@ Not built in Power BI Desktop or the service; built with Power BI Report Builder
 
 Paginated reports can connect to Power BI datasets. It uses the MDX editor, not the SQL editor in those cases.
 
+***
+
 ## Data analysis in Power BI
 
 [2 modules](https://docs.microsoft.com/en-us/learn/paths/perform-analytics-power-bi/)
@@ -357,6 +367,8 @@ Key influencers - a visual that illustrates the factors affecting a metric
 Decomposition trees - a visual that will automatically breakdown/drill-down measures. Selecting the AI 'high value' or 'low value' option will determine the most relevant combinations for each.
 
 AI splits consider all available fields and determine which one to drill into to get the highest/lowest value of the measure analyzed.
+
+***
 
 ## Manage workspaces and datasets in Power BI
 
