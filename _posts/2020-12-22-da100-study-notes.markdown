@@ -407,7 +407,7 @@ After publishing the app, you can edit the app in the workspace, but changes are
 
 Usage and performance metrics are only for Pro license, and roles admin, member, or contributor. They include variations on views and time to open.
 
-Premium Capacity has deployment pipelines where workspaces can have development, test, and production designations. Dev has 'Deply to Test' option. Test allows creating testing rules and 'Deploy to Prod' option. Test and rod give the option of replacing the data source.
+Premium Capacity has deployment pipelines where workspaces can have development, test, and production designations. Dev has 'Deploy to Test' option. Test allows creating testing rules and 'Deploy to Prod' option. Test and prod give the option of replacing the data source (so that prod can point to a prod datasource, for example).
 
 Read more: [Deployment Pipeline Best Practices](https://docs.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-best-practices)
 
