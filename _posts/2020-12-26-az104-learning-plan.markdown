@@ -6,13 +6,11 @@ title: "AZ-104 Learning Plan"
 ---
 # AZ-104 Learning Plan
 
-I believe in lifelong learning and continuous education. The amount of change in the world of technology is constant, and moving forward is the only way to not fall behind.
-
-As such, my current focus is study and preparation for the [Exam AZ-104: Microsoft Azure Administrator](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) to earn an [Azure Administrator Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-administrator) certification. However, I still have quite a bit of work to do. I have created my own learning plan below. Some of the resources are free, and some paid. As I work through the objectives for AZ-104, I will be posting my study notes  for each.
+I'm currently preparing for the [Exam AZ-104: Microsoft Azure Administrator](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) to earn an [Azure Administrator Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-administrator) certification. I have found that following a personal learning helps keep me on schedule and gives me milestones to celebrate. My personal learning plan involves a combination of free and paid resources. Similar to my [DA-100 preparation](/2020/12/da100-study-notes), I am will be posting a series of study notes, one for each objective area.
 
 ## The Plan for AZ-104
 
-1. Complete the [Prerequisites for Azure administrators](https://docs.microsoft.com/en-us/learn/paths/az-104-administrator-prerequisites/) Learning Path
+1. Complete the (free) [Prerequisites for Azure administrators](https://docs.microsoft.com/en-us/learn/paths/az-104-administrator-prerequisites/) Learning Path
 2. Take the (free) WhizLabs 15-question [practice test](https://www.whizlabs.com/microsoft-azure-certification-az-104/free-test/) for a base line score
 3. Complete the (paid) [WhizLabs Azure Administrator](https://www.whizlabs.com/microsoft-azure-certification-az-104/online-course/) course
 4. Complete the (free) [five Microsoft Learning Paths](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) listed at the bottom of the exam page

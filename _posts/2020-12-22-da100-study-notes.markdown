@@ -152,7 +152,7 @@ A good data model in THE key to accurate numbers and good performance.
 In general, reduce the size of the data model by:
 
 - Removing unnecessary columns
-- Remove unnecessary Date/Time hierarchies (turn off Auto date/date)
+- Remove unnecessary Date/Time hierarchies (turn off Auto date/time option)
 - Reduce cardinality as much as possible. For example, use qty * price instead of a higher cardinality sales column
 - Avoid calculated columns
 - Use the star schema design pattern
