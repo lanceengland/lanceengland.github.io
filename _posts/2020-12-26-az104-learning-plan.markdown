@@ -1,6 +1,8 @@
 ---
 date: 2020-12-26
+tags: integration automation
 title: "AZ-104 Learning Plan"
+
 ---
 # AZ-104 Learning Plan
 
