@@ -29,8 +29,8 @@ If my brain hasn't exploded by the end of the list, I should be ready to take on
 Coming soon!
 
 - Prerequisites
-- Manage Azure identities and governance (15-20%)
-- Implement and manage storage (10-15%)
-- Deploy and manage Azure compute resources (25-30%)
-- Configure and manage virtual networking (30-35%)
-- Monitor and back up Azure resources (10-15%)
+- Manage Azure identities and governance
+- Implement and manage storage
+- Deploy and manage Azure compute resources
+- Configure and manage virtual networking
+- Monitor and back up Azure resources

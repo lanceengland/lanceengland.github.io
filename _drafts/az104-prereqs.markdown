@@ -1,5 +1,6 @@
 ---
 date: 2020-11-27
+tags: integration automation
 title: "AZ-104 Prerequisites for Azure administrators"
 ---
 # AZ-104 Prerequisites for Azure administrators

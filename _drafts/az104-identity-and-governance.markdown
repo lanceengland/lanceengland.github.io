@@ -1,5 +1,6 @@
 ---
 date: 2020-11-27
+tags: integration automation
 title: "AZ-104 Identity and Governance"
 ---
 # AZ-104 Identity and Governance

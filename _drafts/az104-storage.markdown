@@ -1,5 +1,6 @@
 ---
 date: 2020-11-27
+tags: integration automation
 title: "AZ-104 Storage"
 ---
 # AZ-104 Storage
@@ -14,3 +15,24 @@ Legacy account types:
 
 1. General Purpose V1 - for blobs, files, queues, tables
 2. BlobStorage - Blobs only
+
+Storage Account Replication:
+
+- Locally-redundant storage (LRS) - 3 syncronous copies in the **same data center** (but different racks). Protects against rack and drive failures.
+- Zone-redundant storage (ZRS) - 3 syncronous copies across availability zones in the **same region**. protects against data center failures.
+- Geo-redundant stoage (GRS) is both:
+  - LRS (3 different racks)
+  - Asyncronous copy in **different region**. The seconday is also LRS, but not available until initiating an account failover.
+- Geo-zone-redundant storage (GZRS) is both:
+  - ZRS (3 different data centers)
+  - Asyncronous copy in **different region**. The seconday is also LRS, but not available until initiating an account failover.
+- Read-access geo-zone-redundant storage (RA-GZRS) - Same as GZRS but the secondary available as a read-only access before a failover.
+
+General purpose storage accounts v1 only supports:
+
+1. LRS
+2. GRS
+3. RA-GZRS
+
+
+Read more: [Regions and Availability Zones in Azure](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
