@@ -179,11 +179,11 @@ Authentication types:
 - Computer recognition - CAPTCHA
 - Single sign-on
 
-Kerberos - https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/3-kerberos.svg
+Kerberos - (source: https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/3-kerberos.svg)
 
 ![Kerberos Diagram](https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/3-kerberos.svg)
 
-TLS/SSL - https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/3-tls-ssl.svg
+TLS/SSL - (source: https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/3-tls-ssl.svg)
 
 ![TLS/SSL](https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/3-tls-ssl.svg)
 
@@ -193,7 +193,11 @@ Network security basics: Segment the network into zones (inside, outide, DMZ) an
 
 Firewalls can be hardware or software. They can inspect different levels of OSI model.
 
-Network Security Groups (NSG) - a fundamental component of Azure security. https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/4-nsg.svg Tip: Use the Azure Network Watcher service and enable NSG flow logs (saves JSON file to a storage account).
+Network Security Groups (NSG) - a fundamental component of Azure security.
+
+![NSG](https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/4-nsg.svg)
+
+Tip: Use the Azure Network Watcher service and enable NSG flow logs (saves JSON file to a storage account).
 
 ![Network Security Groups](https://docs.microsoft.com/en-us/learn/modules/network-fundamentals-2/media/4-nsg.svg)
 
@@ -239,7 +243,7 @@ Good practice: Use "az find" to search for commands e.g. az find (no quotes need
 Use --help convention for info e.g. as storage blob --help
 
 az commands support filtering e.g. az group list --query "[?name == '$RESOURCE_GROUP']" The part after --query is [JMESPath](https://jmespath.org/) syntax, a JSON query language by James Saryerwinnie.
- 
+
 ## Automate Azure tasks using scripts with PowerShell
 
 The Az module replaces the AzureRm module. It has some backwards compatability through aliases.
