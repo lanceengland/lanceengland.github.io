@@ -5,7 +5,7 @@ title: "AZ-104 Prerequisites for Azure administrators"
 ---
 # AZ-104 Prerequisites for Azure administrators
 
-> AZ-104 Series
+> AZ-104 Blog Series
 >
 > - [Learning plan](/2020/12/az104-learning-plan)
 > - **Prerequisites**
