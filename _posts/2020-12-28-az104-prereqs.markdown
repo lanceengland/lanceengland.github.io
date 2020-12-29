@@ -62,9 +62,7 @@ Blueprints vs Policy - Blueprints defone what should be deployed; policies allow
 
 [Azure Blueprints as code repo](https://github.com/Azure/azure-blueprints)
 
-The following video gives a good overview of the pieces of the governance story:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LW8tGt9GvGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+This video gives a good overview of the pieces of the [Azure governance story](https://youtu.be/LW8tGt9GvGg)
 
 Service Compliance through:
 
@@ -165,9 +163,10 @@ Monitor services ini Azure with:
 ## Fundamentals of network security
 
 Server models:
-    - Request/response - client request a response from server
-    - Peer to peer - every device is a client and server e.g. BitCoin
-    - Publish/subscribe - client subscribes to a service
+
+- Request/response - client request a response from server
+- Peer to peer - every device is a client and server e.g. BitCoin
+- Publish/subscribe - client subscribes to a service
 
 Authentication types:
 
@@ -250,12 +249,12 @@ The Az module replaces the AzureRm module. It has some backwards compatability t
 
 Steps to use locally:
 
-- Install-Module Az
-- Import-Module Az
-- Connect-AzAccount
-- Get-AzContext - lists active subscription (can only be 'in' one at a time)
-- Get-AzSubscription lists all subscriptions
-- Select-AzSubscription -SubscriptionId '&lt;guid&gt;' to enter a subscription
+1. Install-Module Az
+2. Import-Module Az
+3. Connect-AzAccount
+4. Get-AzContext - lists active subscription (can only be 'in' one at a time)
+5. Get-AzSubscription lists all subscriptions
+6. Select-AzSubscription -SubscriptionId '&lt;guid&gt;' to enter a subscription
 
 Get-AzResource - lists all resources. Can also filter by resource group ala Get-AzResource -ResourceGroupName &lt;YourResourceGroupName&gt;
 

@@ -34,5 +34,8 @@ General purpose storage accounts v1 only supports:
 2. GRS
 3. RA-GZRS
 
-
 Read more: [Regions and Availability Zones in Azure](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
+
+General Purpose stoage accounts v2 support access tiers: Hot and Cool. Pick the usage pattern; lower storage/higher retrieval or higher storage/lower retrieval
+
+At the Blob level only (not the account level), can also set access tier to Archive.
