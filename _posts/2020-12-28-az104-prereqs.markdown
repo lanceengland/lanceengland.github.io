@@ -1,9 +1,19 @@
 ---
-date: 2020-11-27
+date: 2020-12-28
 tags: integration automation
 title: "AZ-104 Prerequisites for Azure administrators"
 ---
 # AZ-104 Prerequisites for Azure administrators
+
+> AZ-104 Series
+>
+> - [Learning plan](/2020/12/az104-learning-plan)
+> - **Prerequisites**
+> - Identities and governance
+> - Storage
+> - Compute
+> - Networking
+> - Back up
 
 ## Apply and monitor infrastructure standards with Azure Policy
 
@@ -20,7 +30,7 @@ Steps: Create a policy (definition), assign a scope (assignment), view the resul
 
 Many predefined policies exist (in the portal and Github) to use and customize.
 
-policies have *replacement tokens* -- placeholders for parameter values (or defaults) given when the policy is defined for a scope.
+policies have *replacement tokens* - placeholders for parameter values (or defaults) given when the policy is defined for a scope.
 
 A policy has ONE of the following effects when evaluated:
 

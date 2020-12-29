@@ -24,13 +24,12 @@ I'm currently preparing for the [Exam AZ-104: Microsoft Azure Administrator](htt
 
 If my brain hasn't exploded by the end of the list, I should be ready to take on the exam.
 
-## Study Notes by Objective
-
-Coming soon!
-
-- Prerequisites
-- Manage Azure identities and governance
-- Implement and manage storage
-- Deploy and manage Azure compute resources
-- Configure and manage virtual networking
-- Monitor and back up Azure resources
+> AZ-104 Series
+>
+> - **Learning plan**
+> - [Prerequisites](/2020/12/az104-prereqs)
+> - Identities and governance
+> - Storage
+> - Compute
+> - Networking
+> - Back up
