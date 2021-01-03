@@ -5,6 +5,16 @@ title: "AZ-104 Storage"
 ---
 # AZ-104 Storage
 
+> AZ-104 Blog Series
+>
+> - [Learning plan](/2020/12/az104-learning-plan)
+> - [Prerequisites](/2020/12/az104-prereqs)
+> - [Identities and governance](/2020/12/az104-identity-and-governance)
+> - **Storage**
+> - Compute
+> - Networking
+> - Back up
+
 Types of storage accounts:
 
 1. General Purpose V2 - for blobs, files, queues, tables
