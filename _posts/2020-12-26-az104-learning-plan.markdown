@@ -16,9 +16,9 @@ title: "AZ-104 Learning Plan"
 > - Networking
 > - Back up
 
-I'm currently preparing for the [Exam AZ-104: Microsoft Azure Administrator](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) to earn an [Azure Administrator Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-administrator) certification. I have found using a learning to be beneficial in keeping me on schedule and allows milestone accomplishments to celebrate on the way.
+I'm currently preparing for the [Exam AZ-104: Microsoft Azure Administrator](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) to earn an [Azure Administrator Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-administrator) certification. I have found using a learning plan keeps me on schedule and defines milestones to celebrate on the journey.
 
-My learning plan is a combination of both free and paid resources. Similar to my [DA-100 preparation](/2020/12/da100-study-notes), I will be posting a series of study notes for the objective areas.
+My AZ-104 learning plan is a combination of both free and paid resources. Similar to my [DA-100 preparation](/2020/12/da100-study-notes), I will be posting a series of study notes for the objective areas.
 
 ## Checklist
 

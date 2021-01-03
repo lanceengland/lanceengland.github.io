@@ -427,7 +427,7 @@ What-if parameters - enable running scenarios by generating a sequence of values
 
 Power BI gateway - Oragnizational and Personal modes. Installed on on-prem server or workstation. Actually named On-Prem Gateway, and the same tool supports many Microsoft cloud integration tools.
 
-![On-premises Gateway](https://docs.microsoft.com/en-us/learn/modules/manage-datasets-power-bi/media/4-how-gateway-works-ss.png)
+![https://docs.microsoft.com/en-us/learn/modules/manage-datasets-power-bi/media/4-how-gateway-works-ss.png](/assets/img/az104/on-prem-data-gateway.png)
 
 Scheduled refresh - 8 per day, or 48 per day on Premium Capacity. The schedule disables after four consectutive refresh failures.
 
