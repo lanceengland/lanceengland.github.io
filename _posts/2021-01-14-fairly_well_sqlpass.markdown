@@ -15,6 +15,6 @@ I have spoken at three different SQL Saturday events. I was SO nervous the first
 
 ![Improving team outside](/assets/img/sqlsat919-group-outside.jpg)
 
-Ultimately, the community is bigger than just SQL PASS. Already virtual groups are migrating to Meetup and other platforms. SQL Saturday's will likely re-emerge under a different name. That said, I still hate to see SQL PASS cease operations. Thank you to all who served as board members, volunteers, and staff.
+Ultimately, the community is bigger than just SQL PASS. Already virtual groups are migrating to Meetup and other platforms. SQL Saturdays will likely re-emerge under a different name. That said, I still hate to see SQL PASS cease operations. Thank you to all who served as board members, volunteers, and staff.
 
 Fairly well, SQL PASS.
