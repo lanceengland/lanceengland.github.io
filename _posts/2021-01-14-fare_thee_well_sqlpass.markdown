@@ -1,9 +1,9 @@
 ---
 date: 2021-01-14
 tags: data
-title: "Fairly well, SQL PASS"
+title: "Fare thee well, SQL PASS"
 ---
-# Fairly well, SQL PASS
+# Fare thee well, SQL PASS
 
 SQL Pass (or PASS) has been a great amplifier of both community and professional development for thousands. I was saddened by their recent announcement:
 
@@ -17,4 +17,4 @@ I have spoken at three different SQL Saturday events. I was SO nervous the first
 
 Ultimately, the community is bigger than just SQL PASS. Already virtual groups are migrating to Meetup and other platforms. SQL Saturdays will likely re-emerge under a different name. That said, I still hate to see SQL PASS cease operations. Thank you to all who served as board members, volunteers, and staff.
 
-Fairly well, SQL PASS.
+Fare thee well, SQL PASS.
