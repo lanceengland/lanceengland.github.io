@@ -1,5 +1,7 @@
 # AZ-104 Prerequisites for Azure administrators
 
+Note: this is a temp copy that will be deleted after reorganizing and finishing the final version
+
 Service Compliance through:
 
 - Microsoft Privacy Statement - how Microsoft handles private data

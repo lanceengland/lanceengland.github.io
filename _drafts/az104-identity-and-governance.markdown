@@ -220,7 +220,7 @@ Tags can be applied to almost everything. Names are case INSENSITIVE and values 
 
 PowerShell can be used to bulk-apply tags. be CAREFUL not to replace the tag collection; rath, you would want to ADD to the tag collection.
 
-Important! Tags are NOT inherited from parents e.g. resource groups.
+> Tags are NOT inherited from parents e.g. resource groups.
 
 Resource tags are name/value pairs for organization. This helps for relating items from different resource groups. Spending forecasts and reports can be filtered by tags, for example.
 
@@ -228,7 +228,7 @@ Resource tags are name/value pairs for organization. This helps for relating ite
 
 Locks are used to prevent accidents. Two types of locks: 1) CanNotDelete and 2) ReadOnly
 
-Locks assigned to resource groups are inherited by its child resources.
+> Locks assigned to resource groups ARE inherited by its child resources.
 
 #### Moving resources
 
@@ -244,7 +244,7 @@ If a resource group has a ReadOnly lock you CAN add/move resources to it. The re
 
 ### Governance
 
-Importatnt! Azure Management Groups + Azure Policy = Azure Governance
+Important! Azure Management Groups + Azure Policy = Azure Governance
 
 Policies are applied to a scope (and child scopes). Global policies (and/or role-based access control) would be applied at the root management group. The AD Global admin needs to elevate to User Access Administrator role. New subscriptions default to root management group, and can see it, but don't have access to modify. Best practice: Be very careful with policies and especially RBAC at root management, because it would apply to EVERYTHING in that tenant.
 
