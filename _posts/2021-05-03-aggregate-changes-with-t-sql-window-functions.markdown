@@ -13,7 +13,7 @@ For example, in the table below
 2. PatientId '2345' has a new Amount starting in June 2020
 3. PatientId '3456' has a gap for June - July 2020
 
-The table below shows the input detail data.
+The table below shows mocked up sample input data.
 
 | PatientId | PeriodStartDate | PeriodEndDate | AmountType | Amount |
 |-----------|-----------------|---------------|------------|--------|
