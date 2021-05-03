@@ -1,6 +1,6 @@
 ---
 date: 2021-05-03s
-tags: data
+tags: analysis
 title:  Aggregate Changes with T-SQL Window Functions
 ---
 # Aggregate Changes with T-SQL Window Functions
