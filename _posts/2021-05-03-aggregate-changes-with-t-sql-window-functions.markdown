@@ -5,7 +5,7 @@ title:  Aggregate Changes with T-SQL Window Functions
 ---
 # Aggregate Changes with T-SQL Window Functions
 
-Recently I was presented an interesting data challenge. A database would import data feeds at the detail level of one row per patient, per month, per amount type. The output of the database would be a summary that captures the changes. A change would either be a change in amount (in chronological order) or a skipped period (or periods).
+Recently I was presented an interesting data challenge. A database would import data feeds at the detail level of one row per patient, per month, per amount type. The output of the database would be a summary, where one row would represent the start and end period of unchanged values. Each change in amount (in chronological order) or a skipped period (or periods) would trigger a new row.
 
 For example, in the table below
 
@@ -68,9 +68,9 @@ The solution involved a few [common table expressions](https://docs.microsoft.co
 
 ## Step 1: Detect Changes
 
-The important bits are on lines 7 and 8. Line 7 uses the [LAG function](https://docs.microsoft.com/sql/t-sql/functions/lag-transact-sql?view=sql-server-ver15) to calculate the amount change between the previous row and current row. The first row would return NULL, so the ISNULL function replaces NULL with $0 (no change).
+The important bits are on lines 7 and 8. Line 7 uses the [LAG function](https://docs.microsoft.com/sql/t-sql/functions/lag-transact-sql?view=sql-server-ver15) to calculate the amount change between the previous row and current row. The first row would return NULL. We want the first row to be flagged as a 'change', so the ISNULL function replaces NULL with -1 ( i.e. not equals $0 to indicate a change).
 
-Line 8 is similar in that it calculates the date difference in months between the previous row and current row. Each row is expected to represent a month, so any value greater than 1 represents a gap.
+Line 8 is similar in that it calculates the date difference in months between the previous row and current row. Each row is expected to represent a month, so the expected value is 1. We also use ISNULL to add -1 to the first row i.e. any value not equal to 1 indicates a change.
 
 <pre data-enlighter-language="sql">
 SELECT
