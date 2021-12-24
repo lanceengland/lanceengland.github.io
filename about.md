@@ -36,6 +36,8 @@ Atlanta MDF - 2013 August 12
 
 [![MCSA: BI Reporting](/assets/img/mcsa-bi-reporting-2019.png)](https://www.youracclaim.com/badges/717fe12f-2d04-4bac-9702-d0ba3bd7e27a/public_url)
 
-[![Microsoft Certified: Data Analyst Associate](/assets/img/azure-data-fundamentals.png)](https://www.credly.com/badges/f61c9e3c-f124-4b85-aa5b-cd500c9bcdd3/public_url)
-
 [![Microsoft Certified: Data Analyst Associate](/assets/img/microsoft-analyst-associate.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
+
+[![Microsoft Certified: Microsoft Azure Data Fundamentals](/assets/img/azure-data-fundamentals.png)](https://www.credly.com/badges/f61c9e3c-f124-4b85-aa5b-cd500c9bcdd3/public_url)
+
+[![Microsoft Certified: Microsoft Azure Fundamentals](/assets/img/azure-fundamentals.png)](https://www.credly.com/badges/abec18f8-73b1-4ade-afff-5bae2f2f3f27/public_url)
