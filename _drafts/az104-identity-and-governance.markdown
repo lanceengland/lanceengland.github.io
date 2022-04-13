@@ -1,5 +1,5 @@
 ---
-date: 2020-11-27
+date: 2020-11-27 -- todo
 tags: integration automation
 title: "AZ-104 Identity and Governance"
 ---
@@ -15,24 +15,54 @@ title: "AZ-104 Identity and Governance"
 > - Networking
 > - Back up
 
-intro paragraph
+This blog post is part of a series in prepping for [Exam AZ-104: Microsoft Azure Administrator](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104). The learning objectives for Identities and Governance are below.
 
-## Summary
+Manage Azure Active Directory (Azure AD) objects
 
-## Manage Azure AD objects
+- create users and groups
+- create administrative units
+- manage user and group properties
+- manage device settings
+- perform bulk user updates
+- manage guest accounts
+- configure Azure AD join
+- configure self-service password reset
 
-<!--
-Create users and groups
-Manage user and group properties
-Manage device settings
-Perform bulk user updates
-Manage guest accounts
-Configure Azure AD Join
-Configure self-service password reset
-NOT: Azure AD Connect; PIM
--->
+Manage role-based access control (RBAC)
+
+- create a custom role
+- provide access to Azure resources by assigning roles at different scopes
+- interpret access assignments
+
+Manage subscriptions and governance
+
+- configure Azure policies
+- configure resource locks
+- apply and manage tags on resources
+- manage resource groups
+- manage subscriptions
+- manage costs
+- configure management groups
+
+## Manage Azure Active Directory (Azure AD) objects
 
 ### Azure AD
+
+The path to using Azure starts with Azure AD. Azure Active Directory (Azure AD) is Microsoft’s multi-tenant cloud-based directory and identity management service. When an organization signs up to use a Microsoft service like Azure or Microsoft 365, it is assigned a reserved service instance of Azure AD, called a tenant.
+
+> A tenant represents an organization.
+
+A principal is an unknown entity to be authenticated to an identity. An identity can represent a person, server, or service. Azure AD ia a global Identity and Access Management (IAM) service. A tenant (or directory) is a single instance of Azure AD representing a single organization. A Tenant is automatically created when your organization signs up for a Microsoft cloud service subscription.
+
+| Active Directory           | Azure AD                   |
+|----------------------------|----------------------------|
+| Organization units (OU)    | Administrative units       |
+| Group Policy Objects (GPO) | RBAC                       |
+| Kerberos, LDAP, NTLM       | SAML, WS-Federation, OAuth |
+| Hierarchical               | Flat                       |
+| On-prem                    | Multi-tenant cloud service |
+
+You can combine the two through Azure AD Connect for hybrid solutions.
 
 Three flavors 1) Free, 2) Premium P1, 3) Premium P2
 
@@ -130,13 +160,6 @@ Azure AD join allows you to join devices directly to Azure AD without adding the
 
 ## Manage role-based access control (RBAC)
 
-<!--
-Create a custom role
-Provide access to Azure resources by assigning roles subscriptions, resource groups, and resources (VM, disk, etc.)
-Interpret access assignments
-Manage multiple directories
--->
-
 Over 70 built-in roles. Four are fundamental:
 
 1. Owner - Serbice and co-admin from classic are added to this
@@ -159,21 +182,9 @@ Custom roles have the above properties + assignable scope. Custom roles are defi
 
 ## Manage subscriptions and governance
 
-<!--
-Configure Azure policies
-Configure resource locks
-Apply tags
-Create and manage resource groups
-Move resources
-Remove RGs
-Manage subscriptions
-Configure Cost Management
-Configure management groups
--->
-
 ### Subscriptions
 
-At the of the organizational structure is your **Azure AD tenant**, an instance of Azure AD that represents an organization. Right below this is the root management group, which cannot be moved or deleted. The entire management hierarchy is organizaed under the root management group.
+At the of the organizational structure is your **Azure AD tenant**, an instance of Azure AD that represents an organization. Right below this is the root management group, which cannot be moved or deleted. The entire management hierarchy is organized under the root management group.
 
 A **subscription** is a billing container. Subsriptions can be organized with **management groups**. Management groups can contain subscriptions, other management groups, and resource groups (which contain resources). The image below is a good summary.
 
@@ -182,12 +193,12 @@ A **subscription** is a billing container. Subsriptions can be organized with **
 Important!
 
 - You CAN move resources between subscriptions (in general, a few have conditions)
-- A subscription CAN be transferred between different tenants
+- A subscription CAN be transferred between different tenants, but can only belong to one tenant at a time.
 - A tenant CAN have multiple subscriptions
 
-Management groups let you group subscrptions together. You can also create a mgmt group hierarchy. The Root mgmt group can have child groups and subscriptions.
+Management groups let you group subscriptions together. You can also create a mgmt group hierarchy. The Root mgmt group can have child groups and subscriptions.
 
-Subscriptions are linked to accounts. An account can have multiple subscriptions.
+Subscriptions are linked to accounts (Billing Account or Global Admin). An account associate with multiple subscriptions (children), but a subscription can only be associated with one account (parent).
 
 Good practice: Multiple subscriptions for different environments e.g. Dev, Prod, etc.
 
@@ -218,7 +229,9 @@ The Cost Management blade in the portal contains:
 
 Tags can be applied to almost everything. Names are case INSENSITIVE and values are case SENSITIVE. Many use cases. Best practice: Use for billing/cost center. Can use policies to enforce during resource creation, and flag existing non-compliant resources.
 
-PowerShell can be used to bulk-apply tags. be CAREFUL not to replace the tag collection; rath, you would want to ADD to the tag collection.
+Name max length 512, value max length 256. Exception: storage accounts tag name max length 128. Why? No idea. Also, a resoruce can have a max of 50 tags.
+
+PowerShell can be used to bulk-apply tags. Be careful not to REPLCE the tag collection; rather, you would want to ADD to the existing tag collection.
 
 > Tags are NOT inherited from parents e.g. resource groups.
 
@@ -232,19 +245,37 @@ Locks are used to prevent accidents. Two types of locks: 1) CanNotDelete and 2) 
 
 #### Moving resources
 
-Can move resources between resource groups or subscriptions. The source and target resource groups are locked until the move is complete.
+Resources CAN be moved between:
 
-Moving resources does NOT move the location.
+1. Resource groups
+2. Subscriptions
+3. Regions
 
-Moving a VPN gateway MUST move the IP address too.
+Moving between resource groups and subscriptions is a meta-data operation and is handled by the Azure Resource Manager, the underlying service that handles request from the portal, Azure CLI, PowerShell, REST, and SDK. Moving between REGIONS requires the Azure Resource Mover tool. The Azure Resource MOver is part of the portal to assist in all THREE move scenarios. Note: You can only do one move type at a time e.g you can't move regions and subscriptions at the same time.
 
-Moving a VM and NIC MUST move dependent resources too.
+Reminder: The location hierarchy in Azure is Georgraphies -> Regions -> Availability Zones -> Data Centers.
+
+> The source and target resource groups are locked until the move is complete.
+
+Many resources are unsupported, while others have special conditions, and others are fully-supported. The full list of [move operation support for resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-support-resources). Virtual machines have a dedicated [move guidance for VMs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-limitations/virtual-machines-move-limitations) page for supported/unsupported scenarios.
+
+Some supported resources for moving regions:
+
+- VMs and disks (including encrypted)
+- Availability sets
+- Virtual networks
+- Public IPs
+- Network securty groups (NSG)
+- Load balancers (internal and public)
+- Azure SQL databases and elastic pools
+
+Moving a resource requires moving dependent resources e.g. a VM would also need to move public IP, the drive, the NIC. a VPN gateway MUST move the IP address too
 
 If a resource group has a ReadOnly lock you CAN add/move resources to it. The resource group PROPERTIES are read-only, and it's resources inherit the ReadOnly lock (I think).
 
 ### Governance
 
-Important! Azure Management Groups + Azure Policy = Azure Governance
+> Azure Governance = Management Groups/Subscriptions + RBAC + Policies/Blueprints + Locks/Tags
 
 Policies are applied to a scope (and child scopes). Global policies (and/or role-based access control) would be applied at the root management group. The AD Global admin needs to elevate to User Access Administrator role. New subscriptions default to root management group, and can see it, but don't have access to modify. Best practice: Be very careful with policies and especially RBAC at root management, because it would apply to EVERYTHING in that tenant.
 
@@ -252,13 +283,17 @@ Policies are applied to a scope (and child scopes). Global policies (and/or role
 
 Azure Policy is an Azure service you use to create, assign and, manage policies (rules and effects on resources).
 
-Policies are evaluated on resource create and update actions.
+Policies are evaluated during resource create and update actions.
 
 Azure Policy is a service to create, assign, and manage policies. Policies can enforce rules and show non-compliance. Azure has many built-in policies.
 
-Policies will prevent new resources that do not comply, but only flags existing non-compliant resources (it will not remove them).
+Policies will prevent new resources that do not comply, but only FLAGS existing non-compliant resources (it will not remove them).
 
 Policies can be applied to subsctions and management groups.
+
+- Policy defintion - Defines the evaluation criteria, and the action for non-compliance (Audit or Deny)
+- Policy assignment - The scope of assignment: Management group, subscription, resource group, resource
+- Initiative definition - A collection of policies to achieve a singular goal e.g. VM standards
 
 Azure Policy vs RBAC:
 
