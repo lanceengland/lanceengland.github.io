@@ -15,6 +15,38 @@ title: "AZ-104 Storage"
 > - Networking
 > - Back up
 
+## Properties
+
+URLs follow the pattern
+
+https://[storage account name].file.core.windows.net/[file share name]
+
+https://[storage account name].blob.core.windows.net/[container name]
+
+https://[storage account name].queue.core.windows.net/[queue name]
+
+https://[storage account name.table.core.windows.net/[table name]
+
+
+## Types
+
+## Resiliency options
+
+## Performance options
+
+## Access tiers and lifecycle management
+
+## Object Replication
+
+## RBAC
+
+## Managed Disks
+
+## File Sync
+
+## Tools
+
+
 Types of storage accounts:
 
 1. General Purpose V2 - for blobs, files, queues, tables
@@ -26,7 +58,7 @@ Legacy account types:
 1. General Purpose V1 - for blobs, files, queues, tables
 2. BlobStorage - Blobs only
 
-Storage Account Replication:
+Storage Account Redundancy:
 
 - Locally-redundant storage (LRS) - 3 syncronous copies in the **same data center** (but different racks). Protects against rack and drive failures.
 - Zone-redundant storage (ZRS) - 3 syncronous copies across availability zones in the **same region**. protects against data center failures.
