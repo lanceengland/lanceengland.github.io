@@ -1,5 +1,5 @@
 ---
-date: 2020-11-27
+date: 2020-11-27 --todo
 tags: integration automation
 title: "AZ-104 Storage"
 ---
@@ -15,48 +15,100 @@ title: "AZ-104 Storage"
 > - Networking
 > - Back up
 
-## Properties
+## Storage Account Types
 
-URLs follow the pattern
+| Type                        | Services                                                               | Redundancy                           | Usage                                                                                            |
+|-----------------------------|------------------------------------------------------------------------|--------------------------------------|--------------------------------------------------------------------------------------------------|
+| General Purpose v2          | Blob (Block (incl. Data Lake), Append, Page) Azure Files, Table, Queue | LRS, GRS, RA-GRS, ZRS, GZRS, RA-GZRS | Most scenarios. Azure Files only support SMB, hot, cool, and transaction optimized tiers.|
+| Premium block blobs         | Blob (incl. Data Lake), Append                                         | LRS, GRS                             | SSD-backed                                                                                       |
+| Premium file shares         | Azure Files                                                            | LRS, GRS                             | Supports SMB and NFS. 100 TB, no access tiers.                                               |
+| Premium page blobs          | Page Blobs                                                             | LRS                                  | SSD-backed. Premium VHDs.                                                                    |
+| General Purpose v1 (Legacy) | Blob (Block, Append, Page), Azure Files, Table, Queue                  | LRG, GRS, RA-GRS                     | Legacy reasons e.g. classic deployment model. No access tiers.|
+| Standard Blob (Legacy)      | Blob (Block, Append)                                                   | LRG, GRS, RA-GRS                     | Not recommended by Microsoft, use General Purpose v2 blobs                                       |
 
-https://[storage account name].file.core.windows.net/[file share name]
+Note: General Purpose v2 supports all the functionality of General Purpose v1 and Standard Blob, accounts. Legacy accounts can be upgraded in-place, and are not reversable.
 
-https://[storage account name].blob.core.windows.net/[container name]
+## Storage Tiers
 
-https://[storage account name].queue.core.windows.net/[queue name]
+Azure Files storage tiers:
 
-https://[storage account name.table.core.windows.net/[table name]
+- Premium (highest price and performance, supports both SMB and NFS shares). Provisioned billing (pay per capcity)
+- Transaction Optimized (should be named Really Hot; lower transaction, higher storage cost than Hot. SMB share only). Pay as you Go.
+- Hot (lower transaction, higher storage cose than Cool. SMB share only). Pay as you Go.
+- Cool (lower storage, higher trasaction than Hot. SMB share only). Pay as you Go.
 
+## Lifecycle Management
 
-## Types
+## Redundancy
 
-## Resiliency options
+Redundancy live migration is only supported for LRS and GRS. Any RA option would have to be removed first (deleting the read-only copy) before migration.
 
-## Performance options
+## Access Control
 
-## Access tiers and lifecycle management
+Azure AD -
+  RBAC roles:
+    Storage File Data SMB Share Reader
+    Contributor
+    Elevated Contributor
 
-## Object Replication
+Account Keys
 
-## RBAC
+Shared Access Signature
 
-## Managed Disks
+Azure Files via REST supports SAS, but not via SMB.
 
-## File Sync
+Control plan vs data plane
+
+## Azure File Sync
+
+- Centralize file shares in Azure. On-prem Windows servers can keep full copies, or act as frequently accessed cache servers.
+- Backed by Azure Files with redundancy options
+- Simple conflict-resolution strategy: The first change keeps the original file name. Other conflicting changes (up to a max of 100 per file) are kept with a naming convention of \<FileNameWithoutExtension\>-\<endpointName\>[-#].\<ext\> For cloud endpoints, the endpont name will be "cloud".
+- Limit one cloud endpoint per Sync group
+- A server endpoint can only have one file path
 
 ## Tools
 
+Azure Import/Export job (todo: make table)
 
-Types of storage accounts:
+Import
+  Blob (Block, Page)
+  Azure Files
+Export
+  Blob (Block, Page, Append)
 
-1. General Purpose V2 - for blobs, files, queues, tables
-2. BlockBlobStorage - premium performance block and append blobs
-3. FileStorage - premium performance files
+Azure Storage Explorer - GUI client
 
-Legacy account types:
+AZCopy - Command-line tool that supports Blob and Files only.
 
-1. General Purpose V1 - for blobs, files, queues, tables
-2. BlobStorage - Blobs only
+Supported Authorization:
+
+| Type | Supported Authorization |
+|------|-------------------------|
+| Blob                | Azure AD & SAS          |
+| Blob (hierarchical) | Azure AD & SAS          |
+| Files               | SAS only |
+
+## Misc
+
+object replication. what is the use case?
+
+change how a storage acct is replicated
+https://docs.microsoft.com/en-us/azure/storage/common/redundancy-migration
+
+moving storage accounts to another region
+
+## Properties
+
+Storage Account URL pattern
+
+- _storageAccountName_.**file.core.windows.net**/_fileShareName_
+- _storageAccountName_.**blob.core.windows.net**/_containerName_
+- _storageAccountName_.**queue.core.windows.net**/_queueName_
+- _storageAccountName_.**table.core.windows.net**/_tableName_
+
+---
+notes to organize
 
 Storage Account Redundancy:
 
@@ -69,12 +121,6 @@ Storage Account Redundancy:
   - ZRS (3 different data centers)
   - Asyncronous copy in **different region**. The seconday is also LRS, but not available until initiating an account failover.
 - Read-access geo-zone-redundant storage (RA-GZRS) - Same as GZRS but the secondary available as a read-only access before a failover.
-
-General purpose storage accounts v1 only supports:
-
-1. LRS
-2. GRS
-3. RA-GZRS
 
 Read more: [Regions and Availability Zones in Azure](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
