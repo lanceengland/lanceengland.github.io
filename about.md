@@ -37,24 +37,23 @@ Atlanta MDF - 2013 August 12
 ## Certifications
 
 <div id="badges">
-
-[![Microsoft Certified: Azure Solutions Architect Expert](/assets/img/azure-solutions-architect-200px.png)](https://www.credly.com/badges/1f841784-c015-47bd-8dae-17bb9d63b62b/public_url)
-
-<br class="clearfix" />
-
-[![Microsoft Certified: Azure Administrator Associate](/assets/img/azure-administrator-200px.png)](https://www.credly.com/badges/1e4a8580-9ebc-41ca-aea3-b0cc2bca49e7/public_url)
-
-[![Microsoft Certified: Data Analyst Associate](/assets/img/data-analyst-200px.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
+<a href="https://www.credly.com/badges/1f841784-c015-47bd-8dae-17bb9d63b62b/public_url"><img src="assets/img/azure-solutions-architect-200px.png" title="Microsoft Certified: Azure Solutions Architect Expert" alt="Microsoft Certified: Azure Solutions Architect Expert" /></a>
 
 <br class="clearfix" />
 
-[![Microsoft Certified: Microsoft Azure Data Fundamentals](/assets/img/azure-data-fundamentals-200px.png)](https://www.credly.com/badges/f61c9e3c-f124-4b85-aa5b-cd500c9bcdd3/public_url)
+<a href="https://www.credly.com/badges/1e4a8580-9ebc-41ca-aea3-b0cc2bca49e7/public_url"><img src="assets/img/azure-administrator-200px.png" title="Microsoft Certified: Azure Administrator Associate" alt="Microsoft Certified: Azure Administrator Associate" /></a>
 
-[![Microsoft Certified: Microsoft Azure Fundamentals](/assets/img/azure-fundamentals-200px.png)](https://www.credly.com/badges/abec18f8-73b1-4ade-afff-5bae2f2f3f27/public_url)
+<a href="https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url"><img src="assets/img/data-analyst-200px.png" title="Microsoft Certified: Data Analyst Associate" alt="Microsoft Certified: Data Analyst Associate" /></a>
 
 <br class="clearfix" />
 
-[![MCSA: BI Reporting](/assets/img/mcsa-bi-reporting-200px.png)](https://www.youracclaim.com/badges/717fe12f-2d04-4bac-9702-d0ba3bd7e27a/public_url)
+<a href="https://www.credly.com/badges/f61c9e3c-f124-4b85-aa5b-cd500c9bcdd3/public_url"><img src="assets/img/azure-data-fundamentals-200px.png" title="Microsoft Certified: Microsoft Azure Data Fundamentals" alt="Microsoft Certified: Microsoft Azure Data Fundamentals" /></a>
+
+<a href="https://www.credly.com/badges/abec18f8-73b1-4ade-afff-5bae2f2f3f27/public_url"><img src="assets/img/azure-fundamentals-200px.png" title="Microsoft Certified: Microsoft Azure Fundamentals" alt="Microsoft Certified: Microsoft Azure Fundamentals" /></a>
+
+<br class="clearfix" />
+
+<a href="https://www.youracclaim.com/badges/717fe12f-2d04-4bac-9702-d0ba3bd7e27a/public_url"><img src="assets/img/mcsa-bi-reporting-200px.png" title="MCSA: BI Reporting" alt="MCSA: BI Reporting" /></a>
 
 <br class="clearfix" />
 </div>
