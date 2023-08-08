@@ -1,6 +1,6 @@
 # About
 
-Lance England is a data professional focused on data, analysis, integration, and automation using SQL Server, Power BI, DAX, SQL Server Analysis Server, BizTalk, PowerShell, C#, and more. He has industry experience in health care, manufacturing, property rental, and non-profit sectors. He graduated from Georgia State University with a major in Computer Information Systems.
+My name is Lance England and I’m a Microsoft Certified Azure Solutions Architect, Azure Administrator, and Power BI Data Analyst. My current role is Senior Consultant at [Improving](https://improvingatlanta.com/) doing system integration work in the health care sector. Other industry experience includes manufacturing, property rentals, and non-profit. I graduated from Georgia State University majoring in Computer Information Systems.
 
 ![Lance England profile picture](/assets/img/lance_england.jpg)
 
