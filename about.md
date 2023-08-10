@@ -34,7 +34,9 @@ Atlanta Microsoft Business Intelligence User Group - 2014 February 24
 Atlanta MDF - 2013 August 12  
 [Slides/Demos](/assets/presentations/data_mgmt_atlantamdf.zip)
 
-[![license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/) Slides and demos shared with [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+Slides and demos shared with [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Certifications
 
