@@ -1,8 +1,8 @@
-# About Lance England
+# About Me
 
-I’m a Microsoft Certified Azure Solutions Architect, Azure Administrator, and Power BI Data Analyst.
+I’m a Microsoft Certified Azure Solutions Architect, Azure Administrator, and Power BI Data Analyst with over 20 years experience.
 
-My current role is Senior Consultant at [Improving](https://improvingatlanta.com/) doing systems integration in the health care sector. In the past I've been on Business Intelligence teams at both a Fortune 100 company and a internet-based property rental company, and served as Director of Technology for a non-profit. I have a Computer Information Systems degree from Georgia State University.
+My current role is Senior Consultant at [Improving](https://improvingatlanta.com/) doing systems integration in the health care sector. Previously I have been on Business Intelligence teams at a Fortune 100 company and an internet-based property rental company, as well as served as Director of Technology for a non-profit. I hold a Computer Information Systems degree from Georgia State University.
 
 ![Lance England profile picture](/assets/img/lance_england.jpg)
 
@@ -34,28 +34,16 @@ Atlanta Microsoft Business Intelligence User Group - 2014 February 24
 Atlanta MDF - 2013 August 12  
 [Slides/Demos](/assets/presentations/data_mgmt_atlantamdf.zip)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />All slides and demos are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+[![license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/) Slides and demos shared with [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Certifications
 
-<div id="badges">
-<a href="https://www.credly.com/badges/1f841784-c015-47bd-8dae-17bb9d63b62b/public_url"><img src="assets/img/azure-solutions-architect-200px.png" title="Microsoft Certified: Azure Solutions Architect Expert" alt="Microsoft Certified: Azure Solutions Architect Expert" /></a>
+[![Microsoft Certified: Azure Solutions Architect Expert](assets/img/azure-solutions-architect-200px.png)](https://www.credly.com/badges/1f841784-c015-47bd-8dae-17bb9d63b62b/public_url)
 
-<br class="clearfix" />
+[![Microsoft Certified: Azure Administrator Associate](assets/img/azure-administrator-200px.png)](https://www.credly.com/badges/1e4a8580-9ebc-41ca-aea3-b0cc2bca49e7/public_url)
 
-<a href="https://www.credly.com/badges/1e4a8580-9ebc-41ca-aea3-b0cc2bca49e7/public_url"><img src="assets/img/azure-administrator-200px.png" title="Microsoft Certified: Azure Administrator Associate" alt="Microsoft Certified: Azure Administrator Associate" /></a>
+[![Microsoft Certified: Data Analyst Associate](assets/img/data-analyst-200px.png)](https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url)
 
-<a href="https://www.youracclaim.com/badges/7ea11b78-eeef-4cba-8bc3-2fbbcb4519e9/public_url"><img src="assets/img/data-analyst-200px.png" title="Microsoft Certified: Data Analyst Associate" alt="Microsoft Certified: Data Analyst Associate" /></a>
+[![Microsoft Certified: Microsoft Azure Data Fundamentals](assets/img/azure-data-fundamentals-200px.png)](https://www.credly.com/badges/f61c9e3c-f124-4b85-aa5b-cd500c9bcdd3/public_url)
 
-<br class="clearfix" />
-
-<a href="https://www.credly.com/badges/f61c9e3c-f124-4b85-aa5b-cd500c9bcdd3/public_url"><img src="assets/img/azure-data-fundamentals-200px.png" title="Microsoft Certified: Microsoft Azure Data Fundamentals" alt="Microsoft Certified: Microsoft Azure Data Fundamentals" /></a>
-
-<a href="https://www.credly.com/badges/abec18f8-73b1-4ade-afff-5bae2f2f3f27/public_url"><img src="assets/img/azure-fundamentals-200px.png" title="Microsoft Certified: Microsoft Azure Fundamentals" alt="Microsoft Certified: Microsoft Azure Fundamentals" /></a>
-
-<br class="clearfix" />
-
-<a href="https://www.youracclaim.com/badges/717fe12f-2d04-4bac-9702-d0ba3bd7e27a/public_url"><img src="assets/img/mcsa-bi-reporting-200px.png" title="MCSA: BI Reporting" alt="MCSA: BI Reporting" /></a>
-
-<br class="clearfix" />
-</div>
+[![Microsoft Certified: Microsoft Azure Fundamentals](assets/img/azure-fundamentals-200px.png)](https://www.credly.com/badges/abec18f8-73b1-4ade-afff-5bae2f2f3f27/public_url)
