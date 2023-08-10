@@ -2,9 +2,11 @@
 
 I’m a Microsoft Certified Azure Solutions Architect, Azure Administrator, and Power BI Data Analyst with over 20 years experience.
 
-My current role is Senior Consultant at [Improving](https://improvingatlanta.com/) doing systems integration in the health care sector. Previously I have been on Business Intelligence teams at a Fortune 100 company and an internet-based property rental company, as well as served as Director of Technology for a non-profit. I hold a Computer Information Systems degree from Georgia State University.
+Currently, my role is Senior Consultant at [Improving](https://improvingatlanta.com/) developing system integration applications and databases in the health care sector. Previously I have been on Business Intelligence teams at a Fortune 100 company and an internet-based property rental company, as well as served as Director of Technology for a non-profit. I hold a Computer Information Systems degree from Georgia State University.
 
 ![Lance England profile picture](/assets/img/lance_england.jpg)
+
+In the past I was an active speaker at SQL Saturdays, the Atlanta MDF SQL Server user group, and the Atlanta Business Intelligence user group.
 
 ## Presentations
 
