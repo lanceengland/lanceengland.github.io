@@ -1,6 +1,8 @@
-# About
+# About Lance England
 
-My name is Lance England and I’m a Microsoft Certified Azure Solutions Architect, Azure Administrator, and Power BI Data Analyst. My current role is Senior Consultant at [Improving](https://improvingatlanta.com/) doing system integration work in the health care sector. Other industry experience includes manufacturing, property rentals, and non-profit. I graduated from Georgia State University majoring in Computer Information Systems.
+I’m a Microsoft Certified Azure Solutions Architect, Azure Administrator, and Power BI Data Analyst.
+
+My current role is Senior Consultant at [Improving](https://improvingatlanta.com/) doing systems integration in the health care sector. In the past I've been on Business Intelligence teams at both a Fortune 100 company and a internet-based property rental company, and served as Director of Technology for a non-profit. I have a Computer Information Systems degree from Georgia State University.
 
 ![Lance England profile picture](/assets/img/lance_england.jpg)
 
