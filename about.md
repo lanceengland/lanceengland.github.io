@@ -8,17 +8,14 @@ Currently, my role is Senior Consultant at [Improving](https://improvingatlanta.
 
 ## Certifications
 
-[![Microsoft Certified: Azure Solutions Architect Expert](assets/img/azure-solutions-architect-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/f66560008c4ea5b6)
-
-[![Microsoft Certified: DevOps Engineer Expert](assets/img/devops-engineer-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/d3b9b95b893555ee)
-
-[![Microsoft Certified: Azure Administrator Associate](assets/img/azure-administrator-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/d19421d571129cd6)
-
-[![Microsoft Certified: Data Analyst Associate](assets/img/data-analyst-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/e1923498e2987613)
-
-[![Microsoft Certified: Microsoft Azure Data Fundamentals](assets/img/azure-data-fundamentals-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/326f0e59d9d5d7e3)
-
-[![Microsoft Certified: Microsoft Azure Fundamentals](assets/img/azure-fundamentals-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/69ddba404609e140)
+<div id="badges" style="max-width: 500px; margin: auto;">
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/f66560008c4ea5b6"><img src="/assets/img/azure-solutions-architect-200px.png" alt="Microsoft Certified: Azure Solutions Architect Expert" /></a>
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/d3b9b95b893555ee"><img src="/assets/img/devops-engineer-200px.png" alt="Microsoft Certified: DevOps Engineer Expert" /></a>
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/d19421d571129cd6"><img src="/assets/img/azure-administrator-200px.png" alt="Microsoft Certified: Azure Administrator Associate" /></a>
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/e1923498e2987613"><img src="/assets/img/data-analyst-200px.png" alt="Microsoft Certified: Data Analyst Associate" /></a>
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/326f0e59d9d5d7e3"><img src="/assets/img/azure-data-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure Data Fundamentals" /></a>
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/69ddba404609e140"><img src="/assets/img/azure-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure Fundamentals" /></a>
+</div>
 
 ## Presentations
 
