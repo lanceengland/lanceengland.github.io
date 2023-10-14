@@ -49,9 +49,9 @@ Next, I will implement a very basic API to for CRUD operations against the data 
 
 I need to determine where and how to handle authentication/authorization for the API. I could put an API Management in front of it, but also want to explore other options.
 
-I prefer the repo to be in GitHub, but will initially use Azure Repos to simplify implementing the pipelines in Azure DevOps. Later, I may try moving the repo to GitHub and either intergrating with Azure DevOps for the pipelines, or use GitHUb actions. Or, maybe both just for the experience.
+I prefer the repo to be in GitHub, but will initially use Azure Repos to simplify implementing the pipelines in Azure DevOps. Later, I may try moving the repo to GitHub and either intergrating with Azure DevOps for the pipelines, or use GitHub actions. Or, maybe both just for the experience.
 
-I will use VSCode, including the SQL Server Database Project plug-in, and the [Developing Inside a Container](https://code.visualstudio.com/docs/devcontainers/containers) functionality.
+I will use VSCode, including the [SQL Database Project](https://marketplace.visualstudio.com/items?itemName=ms-mssql.sql-database-projects-vscode) extension, and for the API use the [Developing Inside a Container](https://code.visualstudio.com/docs/devcontainers/containers) functionality.
 
 Infrastructure-as-Code will be defined with [Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep) files.
 
