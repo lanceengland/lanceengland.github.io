@@ -62,5 +62,5 @@ The development and production pipelines will target different resources, optimi
 The Quicksilver Practice Project Series:
 
 - **Intro**
-- [Database](2023-10-18-quicksilver-practice-project-database)
+- [Database]({% post_url 2023-10-18-quicksilver-practice-project-database %})
 - API (Coming soon)

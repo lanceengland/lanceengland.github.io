@@ -10,8 +10,11 @@ Data will be stored in an relational database, specifically an Azure SQL Databas
 ## Entities
 
 Customer - id, first, last, email. The person requesting a delivery.
+
 Package - id, name, size, weight. The item to be delivered.
+
 Delivery - id, address, geocode. The destination for the package.
+
 Courier - id, first, last, email. The person delivering the package.
 
 Future work will include events (e.g. picked up, out-for-delivery, delivered).
