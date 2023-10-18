@@ -113,6 +113,6 @@ steps:
 
 The Quicksilver Practice Project Series:
 
-- [Intro](2023-10-14-quicksilver-practice-project-intro)
+- [Intro]({% post_url 2023-10-14-quicksilver-practice-project-intro %})
 - **Database**
 - API (Coming soon)
