@@ -1,9 +1,9 @@
 ---
 date: 2023-10-14
 tags: data automation
-title: "Quicksilver (Hands-On Practice)"
+title: "Quicksilver Practice Project - Intro"
 ---
-# Quicksilver (Hands-On Practice)
+# Quicksilver Practice Project - Intro
 
 This Quicksilver project is simply to get hands-on practice in cloud technologies. Quicksilver is a fictional courier company from an [80s movie](https://www.imdb.com/title/tt0091814/?ref_=nv_sr_srsg_0_tt_5_nm_3_q_quicksilver) (credit to co-worker Bill Delaune for coming up with the idea). The goal is to build a basic front-end client and back-end system for customers and couriers to have packages delivered. The code will be a very basic proof-of-concept, but will be built with DevOps principals of source control, continuous integration (CI) and continuous delivery (CD).
 
@@ -57,4 +57,10 @@ Infrastructure-as-Code will be defined with [Bicep](https://learn.microsoft.com/
 
 The development and production pipelines will target different resources, optimized for cost in development and optimized for scaling in production, while still aiming for cost effectiveness.
 
-This is the first post in a series (more to come soon).
+---
+
+The Quicksilver Practice Project Series:
+
+- **Intro**
+- [Database](2023-10-18-quicksilver-practice-project-database)
+- API (Coming soon)
