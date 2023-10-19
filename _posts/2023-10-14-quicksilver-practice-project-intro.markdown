@@ -5,6 +5,14 @@ title: "Quicksilver Practice Project - Intro"
 ---
 # Quicksilver Practice Project - Intro
 
+This post is part of a series:
+
+- **Intro**
+- [Database]({% post_url 2023-10-18-quicksilver-practice-project-database %})
+- API (Coming soon)
+
+---
+
 This Quicksilver project is simply to get hands-on practice in cloud technologies. Quicksilver is a fictional courier company from an [80s movie](https://www.imdb.com/title/tt0091814/?ref_=nv_sr_srsg_0_tt_5_nm_3_q_quicksilver) (credit to co-worker Bill Delaune for coming up with the idea). The goal is to build a basic front-end client and back-end system for customers and couriers to have packages delivered. The code will be a very basic proof-of-concept, but will be built with DevOps principals of source control, continuous integration (CI) and continuous delivery (CD).
 
 Back-end technologies used:
@@ -56,11 +64,3 @@ I will use VSCode, including the [SQL Database Project](https://marketplace.visu
 Infrastructure-as-Code will be defined with [Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep) files.
 
 The development and production pipelines will target different resources, optimized for cost in development and optimized for scaling in production, while still aiming for cost effectiveness.
-
----
-
-The Quicksilver Practice Project Series:
-
-- **Intro**
-- [Database]({% post_url 2023-10-18-quicksilver-practice-project-database %})
-- API (Coming soon)

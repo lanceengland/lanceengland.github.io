@@ -5,6 +5,14 @@ title: "Quicksilver Practice Project - Database"
 ---
 # Quicksilver Practice Project - Database
 
+This post is part of a series:
+
+- [Intro]({% post_url 2023-10-14-quicksilver-practice-project-intro %})
+- **Database**
+- API (Coming soon)
+
+---
+
 Data will be stored in an relational database, specifically an Azure SQL Database. The data model should be fairly stright-forward. My initial model will be intentionaly bare-bones so I can implement a CI/CD pipeline and then add more to it.
 
 ## Entities
@@ -111,11 +119,3 @@ steps:
 - Research the Database Project publish profile options
 - Add a task tfor SSDT to generate scripts and add a manual review/approval deployment gate.
 - Learn the differences in between the two VSCode Database Project types, Azure SQL Database vs. SQL Server.
-
----
-
-The Quicksilver Practice Project Series:
-
-- [Intro]({% post_url 2023-10-14-quicksilver-practice-project-intro %})
-- **Database**
-- API (Coming soon)
