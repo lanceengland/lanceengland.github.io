@@ -1,11 +1,11 @@
 ---
 date: 2023-10-18
 tags: data automation
-title: "Quicksilver Practice Project - Database"
+title: "Quicksilver Project - Database"
 ---
-# Quicksilver Practice Project - Database
+# Quicksilver Project - Database
 
-This post is part of a series:
+This post is part of a series of getting hands-on practice on a DevOps project:
 
 - [Intro]({% post_url 2023-10-14-quicksilver-practice-project-intro %})
 - **Database**
@@ -51,7 +51,7 @@ I'm going to try this multiple ways, each time getting closer to the goal of CI/
 
 First, I'll manually create an Azure SQL Database through the portal and deploy the code from VSCode, to verify the DACPAC deploys as expected.
 
-Azure SQL Databases now have a Free tier perfect for these types of learning excercises. I icked my Entra ID/Azure AD account as the administrator. After the database was created, I set the Server Firewall rule to allow y client IP address.
+Azure SQL Databases now have a [free tier](https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer?view=azuresql) perfect for these types of learning excercises. I icked my Entra ID/Azure AD account as the administrator. After the database was created, I set the Server Firewall rule to allow y client IP address.
 
 In VSCode, I choose 'Publish' and it launched a basic wizard in the command pallette area, asking for fully-qualified server name, database name, and authentication method. It also allowed me to save a publish profile. Everything worked, so on to the next deployment method.
 
@@ -67,9 +67,9 @@ Next step, creating the pipeline and setting it up to publish to Azure SQL Datab
 
 Azure DevOps needs a way to deploy to your Azure sunscription, so first you need to set up an Azure Resource Manager [Service Connection](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml). The first option is selecting the authentication type that Azure DevOps (AdO) will use when connecting to the Azure subscription. There are six (6) options, and I only have knowledge of two (2) of them, so that is another area to learn more. I choose **Service principle (Automatic)* in which AdO will create a Service Principle in the related Azure AD aka Entra ID instance. It allows you pick the scope between Management Group, Subscription, and Resource Group, and assigns the Contributor RBAC role.
 
-My first decision point before creating the pipeline was how much Infrastructure-as-Code to automate. Should I try to automate the creation of the Azure SQL Database/logical server instance in the pipeline? When learning something new, I tend to go for the lowest "friction" route at first; I'd prefer to get a minimum-viable concept working, and can improve/productionize it later. So, I decided to create the Azure SQL Database manually using the [free tier](https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer?view=azuresql).
+My first decision point before creating the pipeline was how much Infrastructure-as-Code to automate. Should I try to automate the creation of the Azure SQL Database/logical server instance in the pipeline? When learning something new, I tend to go for the lowest "friction" route at first; I'd prefer to get a minimum-viable concept working, and can improve/productionize it later. So, I decided to create the Azure SQL Database manually.
 
-Next step, SQL Database permissions. The Subscription-level RBAC Contributor role is for management-plane permissions. In order to allow the AdO service principle to create objects inside the database, it must have some level of SQL Server permissions, which I assigned using T-SQL statements after connecting SQL Management Studio. 
+Next step, SQL Database permissions. The Subscription-level RBAC Contributor role is for management-plane permissions. In order to allow the AdO service principle to create objects inside the database, it must have some level of SQL Server permissions, which I assigned using T-SQL statements after connecting SQL Management Studio.
 
 > Note: In the Azure portal, browse to the SQL Database and choose "Set Firewall Rules" and choose the option to allow your client IP address.
 
@@ -82,7 +82,7 @@ To build a pipeline to deploy the SQL Database Project, I used two tasks:
 
 It took a multiple attempts to get the file paths figured out. But these are exactly the type of things you just have to fumble through and learn. I used the [system-variable](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml) Agent.BuildDirectory and through runing a script task DIR, I discovered my repo code was under /s. After the fact I discovered a different system-variable, Build.Repository.LocalPath, that gives the path to the repo.
 
-After some trial and error, and was able to build and deploy, hurrah! My YAML pipeline (at this point):
+After some trial and error, I was able to build and deploy, hurrah! My YAML pipeline (at this point):
 
 <pre data-enlighter-language="yaml">
 trigger:

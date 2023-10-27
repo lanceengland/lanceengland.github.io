@@ -1,11 +1,11 @@
 ---
 date: 2023-10-14
 tags: data automation
-title: "Quicksilver Practice Project - Intro"
+title: "Quicksilver Project - Intro"
 ---
-# Quicksilver Practice Project - Intro
+# Quicksilver Project - Intro
 
-This post is part of a series:
+This post is part of a series of getting hands-on practice on a DevOps project:
 
 - **Intro**
 - [Database]({% post_url 2023-10-18-quicksilver-practice-project-database %})
