@@ -31,11 +31,11 @@ With a little confidence boost from passing the AZ-305 exam, I resumed my prepar
 
 ### Back to AZ-400
 
-Finally, it was time to return to the AZ-400 exam. I again used my virtual tutor James Lee to learn all about continuously integrating code with Git repo, and using pipelines to continuously deploy solutions. I felt well-prepared for the exam, but I was caught a little off-guard during the hands-on lab section. It involved more tasks than expected, and I did not allow myself enough time to complete them all. Time management is a key part of sitting an exam. Regardless, I was able to pass and earned the Microsoft Certified: DevOps Engineer Expert certification.
+Finally, it was time to return to the AZ-400 exam. I again used my virtual tutor James Lee to learn all about continuously integrating code with Git repos, and using pipelines to continuously deploy solutions. I felt well-prepared for the exam, but I was caught a little off-guard during the hands-on lab section. It involved more tasks than expected, and I did not allow myself enough time to complete them all. Time management is a key part of sitting an exam. Regardless, I was able to pass and earned the Microsoft Certified: DevOps Engineer Expert certification.
 
 ## Reflection
 
-I have jokingly said to a few people that I went a little crazy earning three Microsoft certifications this past year, but honestly, I enjoy them. Yes, they are stressful. Yes, they require time and energy and focus. However, the exam is a measurable goal with a nice recognition upon completion. The goal gives me a direction for purposeful study, and the preparation guides me through learning new useful skills. Certifications are not a guarantee of anything, but like most things, you get out of it what you put into it.
+I have jokingly said to a few people that I went a little crazy earning three Microsoft certifications this past year, but honestly, I enjoy the process. Yes, they are stressful. Yes, they require time and energy and focus. However, the exam is a measurable goal with a nice recognition upon completion. The goal gives me a direction for purposeful study, and the preparation guides me through learning new useful skills. Certifications are not a guarantee of anything, but like most things, you get out of it what you put into it.
 
 ## Next Steps
 
@@ -47,4 +47,4 @@ Two, yet another certification! This time, I want to obtain the [Microsoft Certi
 
 Third, and possibly most importantly, I am focusing on hands-on practice building personal side-projects. The lab portion of the AZ-400 exam emphasized the importance of this. Instructional learning is great but combining it with practice is key. I have already begun work on this and will be blogging about it throughout the process.
 
-For the longer-term, I have some other ideas. I want to explore more modern data engineering, branch out from Azure into Amazon Web Services, and shoring up some Linux fundamentals are all things on my radar.
+For the longer-term, I have some other ideas. I want to explore more modern data engineering, branch out from Azure into Amazon Web Services, and develop solid Linux fundamentals. There is a never ending flow of things to pick from.
