@@ -13,13 +13,13 @@ Some time ago my interest was piqued by the [DevOps](https://en.wikipedia.org/wi
 
 ### AZ-400
 
-I signed up for a DevOps boot camp and started working through the material with the goal of passing the AZ-400 exam and obtaining the [Microsoft Certified: DevOps Engineer Expert](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/) certification. It didn't take long for me to realize I jumped straight into the deep end and I needed to take a few steps back and focus on some foundational knowledge first. I also discovered the DevOps Engineer Expert certification requires two exams and I had skipped over the prerequisites, which covered a lot of the gaps in my knowledge.
+I signed up for a DevOps boot camp and started working through the material with the goal of passing the [Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/) exam and obtaining the [Microsoft Certified: DevOps Engineer Expert](https://learn.microsoft.com/en-us/credentials/certifications/devops-engineer/) certification. It didn't take long for me to realize I jumped straight into the deep end and I needed to take a few steps back and focus on some foundational knowledge first. I also discovered the certification has a prerequisite exam that I had missed.
 
-The AZ-400 exam has a choice of two prerequisites exams: either AZ-104 which is more administrator focused, or AZ-204 which is more developer focused. I decided I had more gaps on the administration path, and decided to pursue the AZ-104.
+The AZ-400 exam has a choice of two prerequisites exams: either [Exam AZ-104: Microsoft Azure Administrator](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-104/), or [Exam AZ-204: Developing Solutions for Microsoft Azure](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/). I felt I had more gaps on the administration path, and decided to pursue the AZ-104.
 
 ### AZ-104
 
-I put the AZ-400 on pause, and poured into the AZ-104 material, using both the Microsoft Learning Paths and [James Lee’s AZ-104](https://learn.cloudlee.io/p/az-104-microsoft-azure-administrator) course for my preparation. However, as I neared completion of the course, another diversion arose: Microsoft was running a Cloud Skills challenge during their Build conference, and completion of the Azure Solutions Architect learning path earned a free voucher to sit the AZ-305 exam. The AZ-305 exam is part of two exams for the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification, and has the same choice of prerequisites as the DevOps Engineer Expert certification. This would give me double the "bang for my buck" for passing the AZ-104 and apply it towards two different expert certifications.
+I put the AZ-400 on pause, and poured into the AZ-104 material, using both the Microsoft Learning Paths and [James Lee’s AZ-104](https://learn.cloudlee.io/p/az-104-microsoft-azure-administrator) course for my preparation. However, as I neared completion of the course, an opportunity/diversion presented itself: Microsoft was running a cloud skills challenge during their Build conference, and completion of their Azure Solutions Architect learning path earned a free voucher to sit the [Exam AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/) exam. The AZ-305 exam is part of two exams for the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification, and has the same choice of prerequisites as the DevOps Engineer Expert certification. This would give me double the "bang for my buck" for passing the AZ-104 and apply it towards two different expert certifications.
 
 ### AZ-305
 
@@ -39,7 +39,7 @@ I have jokingly said to a few people that I went a little crazy earning three Mi
 
 ## Next Steps
 
-Now that I've recovered from manic certification study, whatever shall I do next? I waffled between self-appointed thought leader, starting a [Chris Gaines](https://en.wikipedia.org/wiki/Chris_Gaines) cover band, or [Cryptozoology](https://en.wikipedia.org/wiki/Cryptozoology), but ultimately decided on three specific goals for the next few months.
+What now? After some consideration that involved [falconry](https://en.wikipedia.org/wiki/Falconry), [Cryptozoology](https://en.wikipedia.org/wiki/Cryptozoology), or starting a [Chris Gaines](https://en.wikipedia.org/wiki/Chris_Gaines) cover band, I have zeroed in on three specific goals for the next few months.
 
 One, renew my [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst-associate/) certification. I will always be a data person at heart, and I still get a thrill out of building good data models, shaping data with Power Query, writing [DAX](https://learn.microsoft.com/en-us/dax/) measures, and seeing it all come together in reports and dashboards. The new Microsoft renewal process is easy; passing an online assessment will renew my certification for another year. I’ll get to go through the renewal process a lot next year!
 
@@ -47,4 +47,4 @@ Two, yes another certification: I want to obtain the [Microsoft Certified: Azure
 
 Third, and possibly most importantly, focus on hands-on practice building side-projects. The lab portion of the AZ-400 exam emphasized the importance of this. Instructional learning is great but combining it with practice is the key to deep learning. I have already started my first side-project and will be blogging about the process.
 
-For the longer-term, I have some other ideas. I want to go more into modern data engineering, branch out from Azure into Amazon Web Services, and develop solid Linux fundamentals. There is a never ending flow of things to pick from.
+For the longer-term, I have some other ideas. I want to go more into modern data engineering, branch out from Azure into Amazon Web Services, and develop solid Linux fundamentals. Keep sharpening the saw.
