@@ -19,23 +19,23 @@ The AZ-400 exam has a choice of two prerequisites exams: either [Exam AZ-104: Mi
 
 ### AZ-104
 
-<img alt="Microsoft Certified: Azure Administrator Associate badge" src="/assets/img/azure-administrator-200px.png" class="img-left" />
-
 I put the AZ-400 on pause, and poured into the AZ-104 material, using both the Microsoft Learning Paths and [James Lee’s AZ-104](https://learn.cloudlee.io/p/az-104-microsoft-azure-administrator) course for my preparation. However, as I neared completion of the course, an opportunity/diversion presented itself: Microsoft was running a cloud skills challenge during their Build conference, and completion of their Azure Solutions Architect learning path earned a free voucher to sit the [Exam AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/) exam. The AZ-305 exam is part of two exams for the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification, and has the same choice of prerequisites as the DevOps Engineer Expert certification. This would give me double the "bang for my buck" for passing the AZ-104 and apply it towards two different expert certifications.
 
 ### AZ-305
 
 So, you guessed it: I paused my preparation for AZ-104 to focus on AZ-305. Both the skills challenge and the free exam voucher itself were limited time offers, so it kept me hyper-focused on getting through the material and scheduling the exam. Man, the things I’ll do for a free voucher!
 
-<img alt="Microsoft Certified: Azure Solutions Architect Expert badge" src="/assets/img/azure-solutions-architect-200px.png" class="img-right" />
+<img alt="Microsoft Certified: Azure Solutions Architect Expert badge" src="/assets/img/azure-solutions-architect-200px.png" class="img-left" />
 
 My preparation for AZ-305 was through my A Cloud Guru subscription, with the instructor yet again James Lee. I can’t recommend James enough as he is thorough, clear, and encouraging in his videos. I passed the AZ-305 exam, but did not yet earn the Azure Solutions Architect certification as I still needed to pass the AZ-104 prerequisite.
+
+<img alt="Microsoft Certified: Azure Administrator Associate badge" src="/assets/img/azure-administrator-200px.png" class="img-right" />
 
 With a little confidence boost from passing the AZ-305 exam, I resumed my preparation for the AZ-104. Upon passing the exam, I earned two certifications at once! Passing AZ-104 by itself earns a [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/), and also combined with my AZ-305 earned the Microsoft Certified: Azure Solutions Architect Expert. Whew!
 
 ### Back to AZ-400
 
-Finally, it was time to return to the AZ-400 exam. I again used my virtual tutor James Lee to learn all about continuously integrating code with Git repos, and using pipelines to continuously deploy solutions. I felt well-prepared for the exam, but I was caught a little off-guard during the hands-on lab section. It involved more tasks than expected, and I did not allow myself enough time to complete them all. Time management is a key part of sitting an exam. Regardless, I was able to pass and earned the Microsoft Certified: DevOps Engineer Expert certification.
+Finally, it was time to return to the AZ-400 exam. I again used my virtual tutor James Lee to learn all about continuously integrating code with Git repos, and using pipelines to continuously deploy solutions. I felt well-prepared for the exam, but I was caught a little off-guard during the hands-on lab section. It involved more tasks than expected, and I did not allow myself enough time to complete them all. Time management is a key part of sitting an exam. Regardless, I was able to pass and earned the Microsoft Certified: DevOps Engineer Expert certification. Finally!
 
 <img alt="Microsoft Certified: DevOps Engineer Expert badge" src="/assets/img/devops-engineer-200px.png" class="" />
 
