@@ -19,7 +19,7 @@ The AZ-400 exam has a choice of two prerequisites exams: either [Exam AZ-104: Mi
 
 ### AZ-104
 
-<img alt="Microsoft Certified: Azure Administrator Associate badge" src="/assets/img/azure-administrator-200px.png" class="img-right" />
+<img alt="Microsoft Certified: Azure Administrator Associate badge" src="/assets/img/azure-administrator-200px.png" class="img-left" />
 
 I put the AZ-400 on pause, and poured into the AZ-104 material, using both the Microsoft Learning Paths and [James Lee’s AZ-104](https://learn.cloudlee.io/p/az-104-microsoft-azure-administrator) course for my preparation. However, as I neared completion of the course, an opportunity/diversion presented itself: Microsoft was running a cloud skills challenge during their Build conference, and completion of their Azure Solutions Architect learning path earned a free voucher to sit the [Exam AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/) exam. The AZ-305 exam is part of two exams for the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification, and has the same choice of prerequisites as the DevOps Engineer Expert certification. This would give me double the "bang for my buck" for passing the AZ-104 and apply it towards two different expert certifications.
 
@@ -27,7 +27,7 @@ I put the AZ-400 on pause, and poured into the AZ-104 material, using both the M
 
 So, you guessed it: I paused my preparation for AZ-104 to focus on AZ-305. Both the skills challenge and the free exam voucher itself were limited time offers, so it kept me hyper-focused on getting through the material and scheduling the exam. Man, the things I’ll do for a free voucher!
 
-<img alt="Microsoft Certified: Azure Solutions Architect Expert badge" src="/assets/img/azure-solutions-architect-200px.png" class="img-left" />
+<img alt="Microsoft Certified: Azure Solutions Architect Expert badge" src="/assets/img/azure-solutions-architect-200px.png" class="img-right" />
 
 My preparation for AZ-305 was through my A Cloud Guru subscription, with the instructor yet again James Lee. I can’t recommend James enough as he is thorough, clear, and encouraging in his videos. I passed the AZ-305 exam, but did not yet earn the Azure Solutions Architect certification as I still needed to pass the AZ-104 prerequisite.
 
