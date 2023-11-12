@@ -47,6 +47,4 @@ Two, yet another certification! This time, I want to obtain the [Microsoft Certi
 
 Third, and possibly most importantly, I am focusing on hands-on practice building personal side-projects. The lab portion of the AZ-400 exam emphasized the importance of this. Instructional learning is great but combining it with practice is key. I have already begun work on this and will be blogging about it throughout the process.
 
-Longer-term, I have some ideas. Exploring modern data engineering, Amazon Web Services, and Linux fundamentals are all things on my radar.
-
-What about you? What types of things are you focusing on learning? I'd love to hear from you in the comments below.
+For the longer-term, I have some other ideas. I want to explore more modern data engineering, branch out from Azure into Amazon Web Services, and shoring up some Linux fundamentals are all things on my radar.
