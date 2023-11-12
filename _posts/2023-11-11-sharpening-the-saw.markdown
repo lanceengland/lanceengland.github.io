@@ -5,9 +5,9 @@ title: "Sharpening the Saw"
 ---
 # Sharpening the Saw
 
-I am a big proponent of [sharpening the saw](https://www.franklincovey.com/the-7-habits/habit-7/) and continuous learning. I think it becomes even more important in the technology industry and current job climate. At the risk of sounding slightly self-promoting, I thought I would share what I've been focusing on the past year, and what I plan to work on next.
+I am a big proponent of [sharpening the saw](https://www.franklincovey.com/the-7-habits/habit-7/) and continuous learning. At the risk of sounding slightly self-promoting, I thought I would share what I've focused on this past year, and what my plans are next.
 
-## Certificate Marathon
+## The Certification Gauntlet
 
 Some time ago my interest was piqued by the [DevOps](https://en.wikipedia.org/wiki/DevOps) methodology, where development and operations become more integrated to increase the delivery of value to the business. My work experience through [Improving](https://www.improving.com/) has given me an opportunity to serve in different roles on multiple projects, from architecting and developing, to deployment and tier-2 operations support. I have seen first-hand the challenges to both initial deployments and subsequent deployments for bug fixes and enhancements. DevOps sounded like a creative solution for addressing these challenges.
 
@@ -39,12 +39,12 @@ I have jokingly said to a few people that I went a little crazy earning three Mi
 
 ## Next Steps
 
-Now that I've (tried to) summarize my slightly crazy learning paths recently, what am I focusing on now? I debated between either starting a [Chris Gaines](https://en.wikipedia.org/wiki/Chris_Gaines) cover band, or [Cryptozoology](https://en.wikipedia.org/wiki/Cryptozoology), but ultimately decided on three specific goals for the next few months.
+Now that I've recovered from manic certification study, whatever shall I do next? I waffled between self-appointed thought leader, starting a [Chris Gaines](https://en.wikipedia.org/wiki/Chris_Gaines) cover band, or [Cryptozoology](https://en.wikipedia.org/wiki/Cryptozoology), but ultimately decided on three specific goals for the next few months.
 
-One, I need to renew my [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst-associate/) certification. I will always be a data person at heart, and I still get a thrill out of building good data models, shaping data with Power Query, writing [DAX](https://learn.microsoft.com/en-us/dax/) measures, and seeing it all come together in reports and dashboards. The new Microsoft renewal process is easy; passing an online assessment will renew my certification for another year. I’ll get to go through the renewal process a lot next year!
+One, renew my [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst-associate/) certification. I will always be a data person at heart, and I still get a thrill out of building good data models, shaping data with Power Query, writing [DAX](https://learn.microsoft.com/en-us/dax/) measures, and seeing it all come together in reports and dashboards. The new Microsoft renewal process is easy; passing an online assessment will renew my certification for another year. I’ll get to go through the renewal process a lot next year!
 
-Two, yet another certification! This time, I want to obtain the [Microsoft Certified: Azure Database Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/) certification. SQL Server is like an old friend, but my friend is spending a lot of time in the cloud these days. I want to stay on top of the different Azure SQL options (serverless, elastic pools, etc.) and the exam will guide me through everything I need to know.
+Two, yes another certification: I want to obtain the [Microsoft Certified: Azure Database Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/) certification. SQL Server is like an old friend, but my friend is spending a lot of time in the cloud these days. I want to stay on top of the different Azure SQL options (serverless, elastic pools, etc.) and the exam will guide me through everything I need to know.
 
-Third, and possibly most importantly, I am focusing on hands-on practice building personal side-projects. The lab portion of the AZ-400 exam emphasized the importance of this. Instructional learning is great but combining it with practice is key. I have already begun work on this and will be blogging about it throughout the process.
+Third, and possibly most importantly, focus on hands-on practice building side-projects. The lab portion of the AZ-400 exam emphasized the importance of this. Instructional learning is great but combining it with practice is the key to deep learning. I have already started my first side-project and will be blogging about the process.
 
-For the longer-term, I have some other ideas. I want to explore more modern data engineering, branch out from Azure into Amazon Web Services, and develop solid Linux fundamentals. There is a never ending flow of things to pick from.
+For the longer-term, I have some other ideas. I want to go more into modern data engineering, branch out from Azure into Amazon Web Services, and develop solid Linux fundamentals. There is a never ending flow of things to pick from.
