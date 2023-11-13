@@ -1,11 +1,11 @@
 ---
 date: 2023-11-11
 tags: automation
-title: "Sharpening the Saw"
+title: "Sharpen the Saw"
 ---
-# Sharpening the Saw
+# Sharpen the Saw
 
-I am a big proponent of [sharpening the saw](https://www.franklincovey.com/the-7-habits/habit-7/) and continuous learning. At the risk of sounding slightly self-promoting, I thought I would share what I've focused on this past year, and what my plans are next.
+I am a big proponent of The 7 Habits of Highly Effective People, particularly Habit 7: [Sharpen the Saw](https://www.franklincovey.com/the-7-habits/habit-7/). At the risk of sounding slightly self-promoting, I wanted to share the things I focused on this past year, and my goals for the next few months.
 
 ## The Certification Gauntlet
 
@@ -19,25 +19,27 @@ The AZ-400 exam has a choice of two prerequisites exams: either [Exam AZ-104: Mi
 
 ### AZ-104
 
-I put the AZ-400 on pause, and poured into the AZ-104 material, using both the Microsoft Learning Paths and [James Lee’s AZ-104](https://learn.cloudlee.io/p/az-104-microsoft-azure-administrator) course for my preparation. However, as I neared completion of the course, an opportunity/diversion presented itself: Microsoft was running a cloud skills challenge during their Build conference, and completion of their Azure Solutions Architect learning path earned a free voucher to sit the [Exam AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/) exam. The AZ-305 exam is part of two exams for the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification, and has the same choice of prerequisites as the DevOps Engineer Expert certification. This would give me double the "bang for my buck" for passing the AZ-104 and apply it towards two different expert certifications.
+I put the AZ-400 on pause, and poured into the AZ-104 material, using both the Microsoft Learning Paths and [James Lee’s AZ-104](https://learn.cloudlee.io/p/az-104-microsoft-azure-administrator) course for my preparation. However, as I neared completion of the course, an opportunity/diversion presented itself.
+
+ Microsoft was running a cloud skills challenge during their Build conference, and completion of their Azure Solutions Architect learning path earned a free voucher to sit the [Exam AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/) exam. The AZ-305 exam is part of two exams for the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification, and has the same choice of prerequisites as the DevOps Engineer Expert certification. This would give me double the "bang for my buck" for passing the AZ-104 and apply it towards two different expert certifications.
 
 ### AZ-305
 
 So, you guessed it: I paused my preparation for AZ-104 to focus on AZ-305. Both the skills challenge and the free exam voucher itself were limited time offers, so it kept me hyper-focused on getting through the material and scheduling the exam. Man, the things I’ll do for a free voucher!
 
-<img alt="Microsoft Certified: Azure Solutions Architect Expert badge" src="/assets/img/azure-solutions-architect-200px.png" class="img-left" />
-
 My preparation for AZ-305 was through my A Cloud Guru subscription, with the instructor yet again James Lee. I can’t recommend James enough as he is thorough, clear, and encouraging in his videos. I passed the AZ-305 exam, but did not yet earn the Azure Solutions Architect certification as I still needed to pass the AZ-104 prerequisite.
 
-<img alt="Microsoft Certified: Azure Administrator Associate badge" src="/assets/img/azure-administrator-200px.png" class="img-right" />
-
 With a little confidence boost from passing the AZ-305 exam, I resumed my preparation for the AZ-104. Upon passing the exam, I earned two certifications at once! Passing AZ-104 by itself earns a [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/), and also combined with my AZ-305 earned the Microsoft Certified: Azure Solutions Architect Expert. Whew!
+
+![Microsoft Certified: Azure Solutions Architect Expert badge](/assets/img/azure-solutions-architect-200px.png)
+
+![Microsoft Certified: Azure Administrator Associate badge](/assets/img/azure-administrator-200px.png)
 
 ### Back to AZ-400
 
 Finally, it was time to return to the AZ-400 exam. I again used my virtual tutor James Lee to learn all about continuously integrating code with Git repos, and using pipelines to continuously deploy solutions. I felt well-prepared for the exam, but I was caught a little off-guard during the hands-on lab section. It involved more tasks than expected, and I did not allow myself enough time to complete them all. Time management is a key part of sitting an exam. Regardless, I was able to pass and earned the Microsoft Certified: DevOps Engineer Expert certification. Finally!
 
-<img alt="Microsoft Certified: DevOps Engineer Expert badge" src="/assets/img/devops-engineer-200px.png" class="" />
+![Microsoft Certified: DevOps Engineer Expert badge](/assets/img/devops-engineer-200px.png)
 
 ## Reflection
 
@@ -45,12 +47,14 @@ I have jokingly said to a few people that I went a little crazy earning three Mi
 
 ## Next Steps
 
-What now? After some consideration that involved [falconry](https://en.wikipedia.org/wiki/Falconry), [Cryptozoology](https://en.wikipedia.org/wiki/Cryptozoology), or starting a [Chris Gaines](https://en.wikipedia.org/wiki/Chris_Gaines) cover band, I have zeroed in on three specific goals for the next few months.
+What now? After some consideration that involved [falconry](https://en.wikipedia.org/wiki/Falconry), [cryptozoology](https://en.wikipedia.org/wiki/Cryptozoology), or starting a [Chris Gaines](https://en.wikipedia.org/wiki/Chris_Gaines) cover band, I have zeroed in on three specific goals for the next few months.
 
 One, renew my [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/power-bi-data-analyst-associate/) certification. I will always be a data person at heart, and I still get a thrill out of building good data models, shaping data with Power Query, writing [DAX](https://learn.microsoft.com/en-us/dax/) measures, and seeing it all come together in reports and dashboards. The new Microsoft renewal process is easy; passing an online assessment will renew my certification for another year. I’ll get to go through the renewal process a lot next year!
 
-Two, yes another certification: I want to obtain the [Microsoft Certified: Azure Database Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/) certification. SQL Server is like an old friend, but my friend is spending a lot of time in the cloud these days. I want to stay on top of the different Azure SQL options (serverless, elastic pools, etc.) and the exam will guide me through everything I need to know.
+Two, obtain the [Microsoft Certified: Azure Database Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/) certification. SQL Server is like an old friend, but my friend is spending a lot of time in the cloud these days. I want to stay on top of the different Azure SQL options (serverless, elastic pools, etc.) and the exam will guide me through everything I need to know.
 
-Third, and possibly most importantly, focus on hands-on practice building side-projects. The lab portion of the AZ-400 exam emphasized the importance of this. Instructional learning is great but combining it with practice is the key to deep learning. I have already started my first side-project and will be blogging about the process.
+Three, and possibly most importantly, focus on hands-on practice building side-projects. The lab portion of the AZ-400 exam reminded me of the importance of this. Instructional learning is great but combining it with practice is the key to deep learning. I have already started my first side-project and will be blogging about the process.
 
-For the longer-term, I have some other ideas. I want to go more into modern data engineering, branch out from Azure into Amazon Web Services, and develop solid Linux fundamentals. Keep sharpening the saw.
+Longer-term, I have some other ideas: diving deeper into modern data engineering, branching into Amazon Web Services, and develop solid Linux fundamentals.
+
+Sharpen the saw.
