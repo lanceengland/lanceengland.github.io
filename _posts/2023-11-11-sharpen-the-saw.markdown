@@ -5,6 +5,8 @@ title: "Sharpen the Saw"
 ---
 # Sharpen the Saw
 
+![Sharpening a blade](/assets/img/saw.png)
+
 I am a big proponent of The 7 Habits of Highly Effective People, particularly Habit 7: [Sharpen the Saw](https://www.franklincovey.com/the-7-habits/habit-7/). At the risk of sounding slightly self-promoting, I wanted to share my focus this past year, and current goals for the next few months.
 
 ## The Certification Gauntlet
