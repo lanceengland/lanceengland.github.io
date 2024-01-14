@@ -17,6 +17,8 @@ Currently, my role is Senior Consultant at [Improving](https://improvingatlanta.
 
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/e1923498e2987613"><img src="/assets/img/data-analyst-200px.png" alt="Microsoft Certified: Data Analyst Associate" /></a>
 
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/87aa3231af2328d7"><img src="/assets/img/azure-ai-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure AI Fundamentals" /></a>
+
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/326f0e59d9d5d7e3"><img src="/assets/img/azure-data-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure Data Fundamentals" /></a>
 
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/69ddba404609e140"><img src="/assets/img/azure-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure Fundamentals" /></a>
