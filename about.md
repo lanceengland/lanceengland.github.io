@@ -13,6 +13,7 @@ Currently, my role is Senior Consultant at [Improving](https://improvingatlanta.
 [![Microsoft Certified: Azure Solutions Architect Expert](assets/img/azure-solutions-architect-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/f66560008c4ea5b6)
 
 [![Microsoft Certified: DevOps Engineer Expert](assets/img/devops-engineer-200px.png)](https://learn.microsoft.com/en-us/users/lance-england/credentials/d3b9b95b893555ee)
+
 </div>
 
 <div id="badges">
