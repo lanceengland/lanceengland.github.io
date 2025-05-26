@@ -1,38 +1,41 @@
 # About Me
 
-I’m a Microsoft Certified Azure Solutions Architect, DevOps Engineer, Azure Administrator, and Power BI Data Analyst with over 20 years experience.
+I'm a Microsoft Certified Azure Solutions Architect, DevOps Engineer, Azure Administrator, and Power BI Data Analyst, as well as a Snowflake Certified SnowPro Core.
 
-Currently, my role is Senior Consultant at [Improving](https://improvingatlanta.com/) developing system integration applications and databases in the health care sector. Previously I have been on Business Intelligence teams at a Fortune 100 company and an internet-based property rental company, as well as served as Director of Technology for a non-profit. I hold a Computer Information Systems degree from Georgia State University.
+Currently, I work as a Senior Consultant at [Improving](https://improvingatlanta.com/), where I design and develop data and integration solutions. 
+
+My past experience includes working on Business Intelligence teams at a Fortune 100 company and a leading internet-based property rental platform. I’ve also served as Director of Technology for a non-profit organization.
+
+I hold a Bachelor’s degree in Computer Information Systems from Georgia State University.
 
 ![Lance England profile picture](/assets/img/lance_england.jpg)
 
 ## Certifications
 
 <div id="badges">
-<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/f66560008c4ea5b6"><img src="assets/img/azure-solutions-architect-200px.png" alt="Microsoft Certified: Azure Solutions Architect Expert" /></a>
-
-<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/d3b9b95b893555ee"><img src="assets/img/devops-engineer-200px.png" alt="Microsoft Certified: DevOps Engineer Expert" /></a>
-
+<a href="https://achieve.snowflake.com/47609702-8b28-4d0c-9a53-94730b45e5d0#acc.2ClTrPMu"><img src="assets/img/snowflake_snowpro_core-200px.png" alt="SnowPro Core Certification" /></a>
 </div>
 
 <div id="badges">
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/f66560008c4ea5b6"><img src="assets/img/azure-solutions-architect-200px.png" alt="Microsoft Certified: Azure Solutions Architect Expert" /></a>
 
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/d3b9b95b893555ee"><img src="assets/img/devops-engineer-200px.png" alt="Microsoft Certified: DevOps Engineer Expert" /></a>
+</div>
+
+<div id="badges">
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/d19421d571129cd6"><img src="assets/img/azure-administrator-200px.png" alt="Microsoft Certified: Azure Administrator Associate" /></a>
 
 <a href="https://learn.microsoft.com/api/credentials/share/en-us/lance-england/D0345C56D62FEE7E"><img src="assets/img/fabric-analytics-engineer-associate-200px.png" alt="Microsoft Certified: Fabric Analytics Engineer Associate" /></a>
 
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/e1923498e2987613"><img src="assets/img/powerbi-data-analyst-200px.png" alt="Microsoft Certified: Power BI Data Analyst Associate" /></a>
-
 </div>
 
 <div id="badges">
-
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/87aa3231af2328d7"><img src="assets/img/azure-ai-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure AI Fundamentals" /></a>
 
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/326f0e59d9d5d7e3"><img src="assets/img/azure-data-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure Data Fundamentals" /></a>
 
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/69ddba404609e140"><img src="assets/img/azure-fundamentals-200px.png" alt="Microsoft Certified: Microsoft Azure Fundamentals" /></a>
-
 </div>
 
 ## Presentations
