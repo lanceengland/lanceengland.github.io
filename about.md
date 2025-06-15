@@ -1,8 +1,8 @@
 # About Me
 
-I'm Snowflake Certified SnowPro Core in addition to holding multiple official Microsoft Certifications covering data, cloud and dev ops. I currently work as a Senior Consultant at [Improving](https://improvingatlanta.com/) designing and developing data and integration solutions.
+I'm a Snowflake certified SnowPro (Core) and also hold multiple Microsoft certifications (see badges below) covering data, cloud, and dev ops. I currently work as a Senior Consultant at [Improving](https://improvingatlanta.com/) designing and developing data and integration solutions.
 
-My past experience includes working on Business Intelligence teams at a Fortune 100 company and a leading internet-based property rental platform. I’ve also served as Director of Technology for a non-profit organization.
+Past experience includes working for an internet property rental website company and served as Director of Technology for a non-profit organization.
 
 I hold a Bachelor’s degree in Computer Information Systems from Georgia State University.
 
@@ -26,7 +26,9 @@ I hold a Bachelor’s degree in Computer Information Systems from Georgia State 
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/5bc0f6feb33bfdb6"><img src="assets/img/fabric-data-engineer-associate-200px.png" alt="Microsoft Certified: Fabric Data Engineer Associate" /></a>
 
 <a href="https://learn.microsoft.com/api/credentials/share/en-us/lance-england/D0345C56D62FEE7E"><img src="assets/img/fabric-analytics-engineer-associate-200px.png" alt="Microsoft Certified: Fabric Analytics Engineer Associate" /></a>
+</div>
 
+<div id="badges">
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/e1923498e2987613"><img src="assets/img/powerbi-data-analyst-200px.png" alt="Microsoft Certified: Power BI Data Analyst Associate" /></a>
 </div>
 
