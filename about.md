@@ -1,8 +1,6 @@
 # About Me
 
-I'm a Microsoft Certified Azure Solutions Architect, DevOps Engineer, Azure Administrator, and Power BI Data Analyst, as well as a Snowflake Certified SnowPro Core.
-
-Currently, I work as a Senior Consultant at [Improving](https://improvingatlanta.com/), where I design and develop data and integration solutions. 
+I'm Snowflake Certified SnowPro Core in addition to holding multiple official Microsoft Certifications covering data, cloud and dev ops. I currently work as a Senior Consultant at [Improving](https://improvingatlanta.com/) designing and developing data and integration solutions.
 
 My past experience includes working on Business Intelligence teams at a Fortune 100 company and a leading internet-based property rental platform. I’ve also served as Director of Technology for a non-profit organization.
 
@@ -24,6 +22,8 @@ I hold a Bachelor’s degree in Computer Information Systems from Georgia State 
 
 <div id="badges">
 <a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/d19421d571129cd6"><img src="assets/img/azure-administrator-200px.png" alt="Microsoft Certified: Azure Administrator Associate" /></a>
+
+<a href="https://learn.microsoft.com/en-us/users/lance-england/credentials/5bc0f6feb33bfdb6"><img src="assets/img/fabric-data-engineer-associate-200px.png" alt="Microsoft Certified: Fabric Data Engineer Associate" /></a>
 
 <a href="https://learn.microsoft.com/api/credentials/share/en-us/lance-england/D0345C56D62FEE7E"><img src="assets/img/fabric-analytics-engineer-associate-200px.png" alt="Microsoft Certified: Fabric Analytics Engineer Associate" /></a>
 
