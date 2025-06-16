@@ -1,8 +1,10 @@
 # About Me
 
-I'm a Snowflake certified SnowPro (Core) and also hold multiple Microsoft certifications (see badges below) covering data, cloud, and dev ops. I currently work as a Senior Consultant at [Improving](https://improvingatlanta.com/) designing and developing data and integration solutions.
+I'm a data and cloud specialist with certifications from Snowflake and Microsoft, including SnowPro Core, Azure Solutions Architect, Azure Administrator, Microsoft Fabric Data Engineer, DevOps Engineer, Power BI Analyst, and more.
 
-Past experience includes working for an internet property rental website company and served as Director of Technology for a non-profit organization.
+Currently, I work as a Senior Consultant at [Improving](https://improvingatlanta.com/), where I design and develop data and integration solutions.
+
+Previously, I worked for an internet-based property rental company and also served as Director of Technology for a nonprofit organization.
 
 I hold a Bachelor’s degree in Computer Information Systems from Georgia State University.
 
