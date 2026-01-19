@@ -4,7 +4,7 @@ I'm a data and cloud specialist with certifications from Snowflake and Microsoft
 
 Currently, I work as a Senior Consultant at [Improving](https://improvingatlanta.com/), where I design and develop data and integration solutions.
 
-Previously, I worked for an internet-based property rental company and also served as Director of Technology for a nonprofit organization.
+Previously, I worked for an internet-based property rental company and have also served as Director of Technology for a nonprofit organization.
 
 I hold a Bachelor’s degree in Computer Information Systems from Georgia State University.
 
